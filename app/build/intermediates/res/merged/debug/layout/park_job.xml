@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/park_job_header"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/red_dark"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/park_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Park Job"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/park_job_header"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/park_comment_section"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border_white"
+            android:gravity="left"
+            android:hint="Comment For Park Job"
+            android:lines="5"
+            android:padding="15dp"
+            android:textSize="17sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/park_required"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="385dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/park"
+            android:padding="5dp"
+            android:text="Park Job"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

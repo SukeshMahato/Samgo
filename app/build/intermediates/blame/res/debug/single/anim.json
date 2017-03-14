@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\left_to_right.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\left_to_right.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_content_fade_out.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\pop_win_content_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pull_in_left.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\pull_in_left.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_content_fade_in.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\pop_win_content_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_out_right.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\push_out_right.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pull_in_right.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\pull_in_right.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\flyin.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\flyin.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_out_left.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\push_out_left.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\top_to_bottom.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\top_to_bottom.xml"
+    },
+    {
+        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_to_top.xml",
+        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\anim\\bottom_to_top.xml"
+    }
+]

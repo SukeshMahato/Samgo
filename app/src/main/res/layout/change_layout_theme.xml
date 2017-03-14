@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/first_background"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Theme 1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:src="@drawable/background_1" />
+            </LinearLayout>
+            
+             <View
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:background="#318dd7"/>
+
+            <LinearLayout
+                android:id="@+id/second_background"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Theme 2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:src="@drawable/background_2" />
+            </LinearLayout>
+            
+             <View
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:background="#318dd7"/>
+
+            <LinearLayout
+                android:id="@+id/third_background"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Theme 3"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:src="@drawable/background_3" />
+            </LinearLayout>
+            
+             <View
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:background="#318dd7"/>
+
+            <LinearLayout
+                android:id="@+id/fourth_background"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Theme 4"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:src="@drawable/background_4" />
+            </LinearLayout>
+            
+             <View
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:background="#318dd7"/>
+
+            <LinearLayout
+                android:id="@+id/fifth_background"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="No Theme"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" />
+            </LinearLayout>
+            
+             <View
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:background="#318dd7"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+                Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:background">@null</item>
+        <item name="colorPrimary">@color/red_dark</item>
+        <item name="colorPrimaryDark">@color/drawe_blue_light</item>
+        <item name="colorAccent">@color/red_dark</item>
+    </style>
+
+    <!-- For Date Picker -->
+    <!--
+            <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">        
+		        <item name="colorPrimary">@color/colorPrimary</item>
+		        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		        <item name="colorAccent">@color/colorAccent</item>
+		    </style>
+    -->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:windowAnimationStyle">@style/FadeInPopWin</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/red_dark</item>
+    </style>
+
+    <style name="TimeDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/red_dark</item>
+    </style>
+
+    <style name="FadeInPopWin">
+        <item name="@android:windowEnterAnimation">@anim/pop_win_content_fade_in</item>
+        <item name="@android:windowExitAnimation">@anim/pop_win_content_fade_out</item>
+    </style>
+    <!-- For Date Picker -->
+
+    <style name="PauseDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+
+    <style name="TopToBottomDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowAnimationStyle">@style/TopToBottomPopWin</item>
+    </style>
+
+    <style name="TopToBottomPopWin">
+        <item name="android:windowEnterAnimation">@anim/top_to_bottom</item>
+        <item name="android:windowExitAnimation">@anim/bottom_to_top</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+    
+    
+
+</resources><!--
+     File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+

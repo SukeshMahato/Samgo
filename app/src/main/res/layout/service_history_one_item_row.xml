@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/textview_border_white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/no_of_visit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Visit 1"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/problem_reported"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Reported Problem"
+        android:textColor="@color/red_light"
+        android:textSize="18sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/problem_reported_heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_background_selector"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/error_code"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_border_transparent"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="Error Code"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/comments"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@drawable/layout_border_transparent"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text="Comments"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/problem_reported_heading_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_border_white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/error_code_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/layout_border_transparent"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="111"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/comments_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@drawable/layout_border_transparent"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text="Pat Testing"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/problem_solution"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Engineers Notes (Solution)"
+        android:textColor="@color/light_green"
+        android:textSize="18sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/engineer_solution_notes_wrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_background_selector"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/engineer_date_time"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@drawable/layout_border_transparent"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="Engineer/[DATE &amp; Time]"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/engineer_comments"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@drawable/layout_border_transparent"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text="Comments"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/work_carried_out"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@drawable/layout_border_transparent"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text="Work Carried Out"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/engineer_solution_notes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_border_white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/engineer_date_time_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@drawable/layout_border_transparent"
+            android:gravity="left"
+            android:padding="10dp"
+            android:text="Brian Kenna [28th January 2015 12:24:24]"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/engineer_comments_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@drawable/layout_border_transparent"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text=""
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/work_carried_out_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@drawable/layout_border_transparent"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text="Pat tested,working fine"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

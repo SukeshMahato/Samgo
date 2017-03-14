@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#5862ED</color>
+    <color name="colorPrimaryDark">#4F46FA</color>
+    <color name="textColorPrimary">#e35252</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#e35252</color>
+    <color name="white">#ffffff</color>
+    <color name="drawer_blue">#344364</color>
+    <color name="drawe_blue_light">#4D5F87</color>
+    <color name="underline">#2a3a5c</color>
+    <color name="foreground">@android:color/white</color>
+    <color name="background">@android:color/white</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="primary">#26389E</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="primary_darker">#1D49CC</color>
+    <color name="primary_dark">#2938E1</color>
+    <color name="light_grey">#D3D3D3</color>
+    <color name="heading_color">#f03939</color>
+    <color name="light_blue">#e8f4ff</color>
+
+    <item name="transparent" type="color">#00FFFFFF</item>
+    <item name="grey" type="color">#555555</item>
+    <item name="green" type="color">#4499CC00</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+
+    <color name="red_light">#f03939</color>
+    <color name="red_dark">#e35252</color>
+    <color name="heading_blue">#2a3a5c</color>
+    <color name="skyblue">#e6faff</color>
+    <color name="light_background">#f6f6f6</color>
+    <color name="light_black">#333333</color>
+    <color name="black">#000000</color>
+    <color name="light_grey_background">#FAFAFA</color>
+    <color name="dark_grey_background">#EFEFEF</color>
+    <color name="light_green">#94CA35</color>
+    <color name="dark_red">#da430f</color>
+    <color name="apptheme_color">#e35252</color>
+    <color name="grey_light">#dfdfdf</color>
+    <color name="colorNoWork">#FFBABA</color>
+    <color name="colorWork">#DFF2BF</color>
+    <color name="inprogress">#4c7464</color>
+    <color name="completed">#cc9966</color>
+    <color name="close">#b8b894</color>
+    <color name="view_bg">#b20e0f</color>
+    <color name="btn_bg">#3e4a56</color>
+    <color name="park">#7E0B80</color>
+    <color name="sign">#318DD7</color>
+
+</resources>
