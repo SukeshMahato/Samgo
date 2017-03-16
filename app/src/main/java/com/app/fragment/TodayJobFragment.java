@@ -109,13 +109,13 @@ public class TodayJobFragment extends Fragment
 			String todaysjobDate = settings.getString("TodayJobDate", "test");
 			if (todaysjobDate.equalsIgnoreCase(getDateTime())) {
 				Log.e("TAG", "TESTING >>> <<<");
-				//new ErrorCodeListServices(TodayJobFragment.this, getActivity()).execute();
+				new ErrorCodeListServices(TodayJobFragment.this, getActivity()).execute();
 				jobDataList.clear();
 				jobDataList = db.getAllDataFromJobForToday(getDateTime());
 				jobListAdapter = new JobListAdapter(TodayJobFragment.this, getActivity(), jobDataList);
 				jobList.setAdapter(jobListAdapter);
 				jobListAdapter.notifyDataSetChanged();
-				new TodaysJobServices(this, AppManager.getSinleton().getUser().getId(), getActivity()).execute();
+				//new TodaysJobServices(this, AppManager.getSinleton().getUser().getId(), getActivity()).execute();
 			} else {
 				SharedPreferences settings1 = getActivity().getSharedPreferences(PREFS_NAME, 0);
 				SharedPreferences.Editor editor = settings1.edit();
@@ -482,9 +482,7 @@ public class TodayJobFragment extends Fragment
 								// setting data in MasterManufacturer
 								machineManufacturer.setManufacture_id(manufacturer);
 								machineManufacturer.setManufacturer_name(machine_manufacturer_name);
-
 								ArrayList<String> getManufactureIds = db.getMachineManufaturesId();
-
 								if (getManufactureIds.contains(manufacturer)) {
 
 								} else {
@@ -496,14 +494,11 @@ public class TodayJobFragment extends Fragment
 								 */
 
 								Machinetype machinetype = new Machinetype();
-
 								// setting data in MasterType
 								machinetype.setType_id(machine_type);
 								machinetype.setType_name(machine_type_name);
 								machinetype.setType_desc("");
-
 								int countType = db.getMachineTypeCountByTypeId(machine_type);
-
 								if (countType > 0) {
 
 								} else {
@@ -516,14 +511,11 @@ public class TodayJobFragment extends Fragment
 								 */
 
 								MachineModel machineModel = new MachineModel();
-
 								// setting data in MasterMopdel
 								machineModel.setModel_id(machine_model);
 								machineModel.setMachine_id(machineId);
 								machineModel.setModel_name(machine_model_name);
-
 								int countModel = db.getModelCountByModelId(machine_model);
-
 								if (countModel > 0) {
 
 								} else {
@@ -556,11 +548,8 @@ public class TodayJobFragment extends Fragment
 								result.setSite_id(site_id);
 
 								Log.e("TAG", "Site Id  >> " + site_id);
-
 								int countMachine = db.getCountAddMachineList(machine_si_no);
-
 								Log.e("TAG", "Count machine >> " + countMachine);
-
 								if (countMachine > 0) {
 
 								} else {
@@ -581,9 +570,7 @@ public class TodayJobFragment extends Fragment
 						 */
 
 						String sectorObj = siteObj.getString("Sector");
-
 						String sectorName = "";
-
 						Object json = new JSONTokener(sectorObj).nextValue();
 						if (json instanceof JSONObject) {
 							JSONObject sectorjObj = new JSONObject(sectorObj);
@@ -1043,7 +1030,6 @@ public class TodayJobFragment extends Fragment
                         Log.e("sqlexcep: ", sqlexception.toString());
                         Log.e("Id: ",id);
                     }
-
                 }
                 Log.e("values", sqlStatement);
 

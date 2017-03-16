@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.Locale;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.app.adapter.AddCommonListAdapter;
@@ -16,6 +17,7 @@ import com.app.adapter.AddMachineNameListAdapter;
 import com.app.adapter.AddMachineTypeListAdapter;
 import com.app.asyncs.MachineMasterServices;
 import com.app.database.SamgoSQLOpenHelper;
+import com.app.fragment.TodayJobFragment;
 import com.app.listners.AddMachineMasterListener;
 import com.app.model.Config;
 import com.app.model.MachineManufacturer;
@@ -31,7 +33,10 @@ import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.DatePickerDialog.OnDateSetListener;
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.SharedPreferences;
+import android.database.SQLException;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -98,6 +103,7 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 	private SamgoSQLOpenHelper db;
 	private String site_id = "";
 	private LinearLayout parentLayout;
+	ProgressDialog progressDialog;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -105,8 +111,11 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.add_machine_site_activity);
+		progressDialog = new ProgressDialog(this);
+		progressDialog.setCancelable(false);
 		initialisation();
 		listner();
+
 
 		Bundle extras = getIntent().getExtras();
 		if (extras != null) {
@@ -1127,20 +1136,144 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 				db.deletemachineManufacturerMasterrAllJobRecords();
 				db.deletemachineModelMasterAllJobRecords();
 				db.deletemachineTypeMasterAllJobRecords();
+                new AddMachine().execute(jArr);
 
-				for (int i = 0; i < jArr.length(); i++) {
+//				for (int i = 0; i < jArr.length(); i++) {
+//
+//					MachineMaster machineMaster = new MachineMaster();
+//					MachineManufacturer machineManufacturer = new MachineManufacturer();
+//					Machinetype machinetype = new Machinetype();
+//					MachineModel machineModel = null;
+//
+//					String masterStr = jArr.getString(i);
+//
+//					JSONObject machinObj = new JSONObject(masterStr);
+//
+//					String machineMasterStr = machinObj.getString("MachineMaster");
+//
+//					JSONObject machinMasterObj = new JSONObject(machineMasterStr);
+//					String machineMasterId = machinMasterObj.getString("id");
+//					String type_id = machinMasterObj.getString("type_id");
+//					String manufacturer_id = machinMasterObj.getString("manufacturer_id");
+//					String model_id = machinMasterObj.getString("model_id");
+//					String machine_name = machinMasterObj.getString("name");
+//					String machine_desc = machinMasterObj.getString("description");
+//					String MachineTypeMaster = machinObj.getString("MachineTy" +
+//							"pe");
+//					JSONObject machineTypeObj = new JSONObject(MachineTypeMaster);
+//					String typeMaster_id = machineTypeObj.getString("id");
+//					String type_name = machineTypeObj.getString("name");
+//					String type_desc = machineTypeObj.getString("description");
+//
+//					String machineArray = machinObj.getString("MachineModel");
+//					JSONArray MachineModelArray = new JSONArray(machineArray);
+//
+//					for (int j = 0; j < MachineModelArray.length(); j++) {
+//						machineModel = new MachineModel();
+//						String masterModelStr = MachineModelArray.getString(j);
+//						JSONObject ModelObj = new JSONObject(masterModelStr);
+//						String modelMaster_id = ModelObj.getString("id");
+//						String machine_id = ModelObj.getString("master_id");
+//						String model_name = ModelObj.getString("name");
+//						// setting data in MasterMopdel
+//						machineModel.setModel_id(modelMaster_id);
+//						machineModel.setMachine_id(machine_id);
+//						machineModel.setModel_name(model_name);
+//						db.addmachineModelMaster(machineModel);
+//					}
+//
+//					// setting data in MasterMachine
+//					machineMaster.setMachine_id(machineMasterId);
+//					machineMaster.setMachine_desc(machine_desc);
+//					machineMaster.setMachine_name(machine_name);
+//					machineMaster.setManufacturer_id(manufacturer_id);
+//					machineMaster.setModel_id(model_id);
+//					machineMaster.setType_id(type_id);
+//					// machineMasterList.add(machineMaster);
+//					db.addmachineMaster(machineMaster);
+//
+//					String MachineManufacturerMaster = machinObj.getString("MachineManufacturer");
+//					JSONObject machineManufacturerObj = new JSONObject(MachineManufacturerMaster);
+//					String manufactureMaster_id = machineManufacturerObj.getString("id");
+//					String manufacturer_name = machineManufacturerObj.getString("name");
+//					// setting data in MasterManufacturer
+//					machineManufacturer.setManufacture_id(manufactureMaster_id);
+//					machineManufacturer.setManufacturer_name(manufacturer_name);
+//					ArrayList<String> getManufactureIds = db.getMachineManufaturesId();
+//
+//					if (getManufactureIds.contains(manufactureMaster_id)) {
+//
+//					} else {
+//
+//						// Log.e("TAG", "During Insert>>");
+//						// Log.e("TAG", "Value>>" + manufactureMaster_id);
+//						// Log.e("TAG", "Value>>" + manufacturer_name);
+//
+//						db.addmachineManufactureMaster(machineManufacturer);
+//					}
+//					// setting data in MasterType
+//					machinetype.setType_id(typeMaster_id);
+//					machinetype.setType_name(type_name);
+//					machinetype.setType_desc(type_desc);
+//					// typeMasterList.add(machinetype);
+//					db.addMachineTypeMaster(machinetype);
+//
+//				}
+
+			} catch (Exception e) {
+				// TODO: handle exception
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public boolean checkSysDate(String userDate) {
+		try {
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+			Date date1 = sdf.parse(userDate);
+			Date date = new Date();
+
+			if (date1.compareTo(date) > 0) {
+				return false;
+			} else {
+				return true;
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+
+	}
+
+
+
+//Added by Sukesh
+	public class AddMachine extends AsyncTask<JSONArray,Void,String> {
+
+		@Override
+		protected void onPreExecute() {
+			super.onPreExecute();
+
+			progressDialog.setMessage("Please wait....");
+			progressDialog.show();
+			//db.truncateSpareParts();
+		}
+
+		@Override
+		protected String doInBackground(JSONArray... jsonArrays) {
+			try {
+				final JSONArray jsonArray = jsonArrays[0];
+				for (int i = 0; i < jsonArray.length(); i++) {
 
 					MachineMaster machineMaster = new MachineMaster();
 					MachineManufacturer machineManufacturer = new MachineManufacturer();
 					Machinetype machinetype = new Machinetype();
 					MachineModel machineModel = null;
 
-					String masterStr = jArr.getString(i);
-
+					String masterStr = jsonArray.getString(i);
 					JSONObject machinObj = new JSONObject(masterStr);
-
 					String machineMasterStr = machinObj.getString("MachineMaster");
-
 					JSONObject machinMasterObj = new JSONObject(machineMasterStr);
 					String machineMasterId = machinMasterObj.getString("id");
 					String type_id = machinMasterObj.getString("type_id");
@@ -1148,9 +1281,8 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 					String model_id = machinMasterObj.getString("model_id");
 					String machine_name = machinMasterObj.getString("name");
 					String machine_desc = machinMasterObj.getString("description");
-
-					String MachineTypeMaster = machinObj.getString("MachineType");
-
+					String MachineTypeMaster = machinObj.getString("MachineTy" +
+							"pe");
 					JSONObject machineTypeObj = new JSONObject(MachineTypeMaster);
 					String typeMaster_id = machineTypeObj.getString("id");
 					String type_name = machineTypeObj.getString("name");
@@ -1171,7 +1303,6 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 						machineModel.setMachine_id(machine_id);
 						machineModel.setModel_name(model_name);
 						db.addmachineModelMaster(machineModel);
-
 					}
 
 					// setting data in MasterMachine
@@ -1185,15 +1316,12 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 					db.addmachineMaster(machineMaster);
 
 					String MachineManufacturerMaster = machinObj.getString("MachineManufacturer");
-
 					JSONObject machineManufacturerObj = new JSONObject(MachineManufacturerMaster);
 					String manufactureMaster_id = machineManufacturerObj.getString("id");
 					String manufacturer_name = machineManufacturerObj.getString("name");
-
 					// setting data in MasterManufacturer
 					machineManufacturer.setManufacture_id(manufactureMaster_id);
 					machineManufacturer.setManufacturer_name(manufacturer_name);
-
 					ArrayList<String> getManufactureIds = db.getMachineManufaturesId();
 
 					if (getManufactureIds.contains(manufactureMaster_id)) {
@@ -1206,7 +1334,6 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 
 						db.addmachineManufactureMaster(machineManufacturer);
 					}
-
 					// setting data in MasterType
 					machinetype.setType_id(typeMaster_id);
 					machinetype.setType_name(type_name);
@@ -1215,32 +1342,19 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 					db.addMachineTypeMaster(machinetype);
 
 				}
-
-			} catch (Exception e) {
-				// TODO: handle exception
-				e.printStackTrace();
+			}catch (JSONException e){
+				return e.toString();
 			}
+			return "Please Continue";
 		}
 
-	}
+		@Override
+		protected void onPostExecute(String s) {
+			super.onPostExecute(s);
+			progressDialog.dismiss();
 
-	public boolean checkSysDate(String userDate) {
-		try {
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-			Date date1 = sdf.parse(userDate);
-			Date date = new Date();
-
-			if (date1.compareTo(date) > 0) {
-				return false;
-			} else {
-				return true;
-			}
-
-		} catch (Exception e) {
-			e.printStackTrace();
-			return false;
+			Toast.makeText(getApplicationContext(),s,Toast.LENGTH_SHORT).show();
 		}
-
 	}
 
 }

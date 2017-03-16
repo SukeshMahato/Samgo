@@ -557,9 +557,7 @@ public class CreateDocketActivityPart2 extends Activity {
 				if (scanId == "SCAN_M") {
 
 					String contents = result.getContents();
-
 					String machineSlNo = db.getMachineSlNoData(contents);
-
 					// Toast.makeText(getApplicationContext(), "machin >> " +
 					// machineSlNo, Toast.LENGTH_LONG).show();
 
@@ -568,11 +566,9 @@ public class CreateDocketActivityPart2 extends Activity {
 								Toast.LENGTH_LONG).show();
 					} else {
 						Config.machineSlNo = machineSlNo;
-
 						MachineSiteMain machineSiteMain = db.getMachineDataListByMachineSlNo(Config.machineSlNo);
 						if (machineSiteMain.getSite_id().equalsIgnoreCase(Config.site_id)) {
 							Intent gotoVideoActivity = new Intent(getApplicationContext(), AssignMachineToJob.class);
-
 							startActivity(gotoVideoActivity);
 							overridePendingTransition(R.anim.pull_in_left, R.anim.push_out_right);
 						} else {
@@ -582,7 +578,6 @@ public class CreateDocketActivityPart2 extends Activity {
 					}
 				}
 				else if (scanId == "SCAN_S") {
-
 
 					//String contents = intent.getStringExtra("SCAN_RESULT");
 					//String format = data.getStringExtra("SCAN_RESULT_FORMAT");
