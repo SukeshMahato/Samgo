@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/parent_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/white" >
+
 
     <RelativeLayout
         android:id="@+id/create_docket_header"
@@ -148,6 +153,7 @@
                 android:gravity="left"
                 android:hint="Create Docket Comment"
                 android:lines="3"
+                android:inputType="textMultiLine"
                 android:padding="15dp"
                 android:textSize="17sp"
                 android:textStyle="bold" >
@@ -261,3 +267,4 @@
     </LinearLayout>
 
 </RelativeLayout>
+    </ScrollView>
