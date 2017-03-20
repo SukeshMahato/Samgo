@@ -21,6 +21,7 @@ import com.app.model.Config;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
+import android.support.v4.app.Fragment;
 
 public class MachineMasterServices extends AsyncTask<Void, Void, String> {
 
@@ -31,11 +32,11 @@ public class MachineMasterServices extends AsyncTask<Void, Void, String> {
 	private String start_id;
 	private ProgressDialog progressBar;
 
-	public MachineMasterServices(String start_id,String limit, Activity mContext) {
+	public MachineMasterServices(String start_id, String limit, Fragment fragment, Activity mContext) {
 		// TODO Auto-generated constructor stub
 		this.start_id=start_id;
 		this.mContext = mContext;
-		this.callback = (AddMachineMasterListener) mContext;
+		this.callback = (AddMachineMasterListener) fragment;
 		this.limit = limit;
 	}
 
@@ -108,11 +109,11 @@ public class MachineMasterServices extends AsyncTask<Void, Void, String> {
 	protected void onPostExecute(String requestMessage) {
 		// TODO Auto-generated method stub
 		super.onPostExecute(requestMessage);
-		try{
-			Thread.sleep(5000);
-		}catch(Exception e){
-			e.printStackTrace();
-		}
+//		try{
+//			Thread.sleep(5000);
+//		}catch(Exception e){
+//			e.printStackTrace();
+//		}
 		progressBar.dismiss();
 		try {
 			callback.getAllMachineMasterListResponse(requestMessage);

@@ -15,6 +15,7 @@ import com.app.adapter.AddMachineListAdapter;
 import com.app.adapter.AddMachineModelListAdapter;
 import com.app.adapter.AddMachineNameListAdapter;
 import com.app.adapter.AddMachineTypeListAdapter;
+import com.app.asyncs.AddMachine;
 import com.app.asyncs.MachineMasterServices;
 import com.app.database.SamgoSQLOpenHelper;
 import com.app.fragment.TodayJobFragment;
@@ -150,7 +151,8 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 		// get Internet status
 		isInternetPresent = cd.isConnectingToInternet();
 		if (isInternetPresent) {
-			new MachineMasterServices("0", "-1", this).execute();
+
+			//new MachineMasterServices("0", "-1", this).execute();
 		}
 	}
 
@@ -1127,16 +1129,16 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 		// TODO Auto-generated method stub
 		if (response != null) {
 			try {
-
 				// Log.e("TAG", "response >> " + response);
 
 				JSONArray jArr = new JSONArray(response);
-
 				db.deletemachineMasterAllJobRecords();
 				db.deletemachineManufacturerMasterrAllJobRecords();
 				db.deletemachineModelMasterAllJobRecords();
 				db.deletemachineTypeMasterAllJobRecords();
-                new AddMachine().execute(jArr);
+                //Added by Sukesh
+
+                //new AddMachine(this).execute(jArr);
 
 //				for (int i = 0; i < jArr.length(); i++) {
 //
@@ -1248,113 +1250,5 @@ public class AddMachineActivity extends Activity implements AddMachineMasterList
 
 
 
-//Added by Sukesh
-	public class AddMachine extends AsyncTask<JSONArray,Void,String> {
-
-		@Override
-		protected void onPreExecute() {
-			super.onPreExecute();
-
-			progressDialog.setMessage("Please wait....");
-			progressDialog.show();
-			//db.truncateSpareParts();
-		}
-
-		@Override
-		protected String doInBackground(JSONArray... jsonArrays) {
-			try {
-				final JSONArray jsonArray = jsonArrays[0];
-				for (int i = 0; i < jsonArray.length(); i++) {
-
-					MachineMaster machineMaster = new MachineMaster();
-					MachineManufacturer machineManufacturer = new MachineManufacturer();
-					Machinetype machinetype = new Machinetype();
-					MachineModel machineModel = null;
-
-					String masterStr = jsonArray.getString(i);
-					JSONObject machinObj = new JSONObject(masterStr);
-					String machineMasterStr = machinObj.getString("MachineMaster");
-					JSONObject machinMasterObj = new JSONObject(machineMasterStr);
-					String machineMasterId = machinMasterObj.getString("id");
-					String type_id = machinMasterObj.getString("type_id");
-					String manufacturer_id = machinMasterObj.getString("manufacturer_id");
-					String model_id = machinMasterObj.getString("model_id");
-					String machine_name = machinMasterObj.getString("name");
-					String machine_desc = machinMasterObj.getString("description");
-					String MachineTypeMaster = machinObj.getString("MachineTy" +
-							"pe");
-					JSONObject machineTypeObj = new JSONObject(MachineTypeMaster);
-					String typeMaster_id = machineTypeObj.getString("id");
-					String type_name = machineTypeObj.getString("name");
-					String type_desc = machineTypeObj.getString("description");
-
-					String machineArray = machinObj.getString("MachineModel");
-					JSONArray MachineModelArray = new JSONArray(machineArray);
-
-					for (int j = 0; j < MachineModelArray.length(); j++) {
-						machineModel = new MachineModel();
-						String masterModelStr = MachineModelArray.getString(j);
-						JSONObject ModelObj = new JSONObject(masterModelStr);
-						String modelMaster_id = ModelObj.getString("id");
-						String machine_id = ModelObj.getString("master_id");
-						String model_name = ModelObj.getString("name");
-						// setting data in MasterMopdel
-						machineModel.setModel_id(modelMaster_id);
-						machineModel.setMachine_id(machine_id);
-						machineModel.setModel_name(model_name);
-						db.addmachineModelMaster(machineModel);
-					}
-
-					// setting data in MasterMachine
-					machineMaster.setMachine_id(machineMasterId);
-					machineMaster.setMachine_desc(machine_desc);
-					machineMaster.setMachine_name(machine_name);
-					machineMaster.setManufacturer_id(manufacturer_id);
-					machineMaster.setModel_id(model_id);
-					machineMaster.setType_id(type_id);
-					// machineMasterList.add(machineMaster);
-					db.addmachineMaster(machineMaster);
-
-					String MachineManufacturerMaster = machinObj.getString("MachineManufacturer");
-					JSONObject machineManufacturerObj = new JSONObject(MachineManufacturerMaster);
-					String manufactureMaster_id = machineManufacturerObj.getString("id");
-					String manufacturer_name = machineManufacturerObj.getString("name");
-					// setting data in MasterManufacturer
-					machineManufacturer.setManufacture_id(manufactureMaster_id);
-					machineManufacturer.setManufacturer_name(manufacturer_name);
-					ArrayList<String> getManufactureIds = db.getMachineManufaturesId();
-
-					if (getManufactureIds.contains(manufactureMaster_id)) {
-
-					} else {
-
-						// Log.e("TAG", "During Insert>>");
-						// Log.e("TAG", "Value>>" + manufactureMaster_id);
-						// Log.e("TAG", "Value>>" + manufacturer_name);
-
-						db.addmachineManufactureMaster(machineManufacturer);
-					}
-					// setting data in MasterType
-					machinetype.setType_id(typeMaster_id);
-					machinetype.setType_name(type_name);
-					machinetype.setType_desc(type_desc);
-					// typeMasterList.add(machinetype);
-					db.addMachineTypeMaster(machinetype);
-
-				}
-			}catch (JSONException e){
-				return e.toString();
-			}
-			return "Please Continue";
-		}
-
-		@Override
-		protected void onPostExecute(String s) {
-			super.onPostExecute(s);
-			progressDialog.dismiss();
-
-			Toast.makeText(getApplicationContext(),s,Toast.LENGTH_SHORT).show();
-		}
-	}
 
 }

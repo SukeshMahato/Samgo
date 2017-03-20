@@ -18,10 +18,13 @@ import org.json.JSONTokener;
 
 import com.app.adapter.JobListAdapter;
 import com.app.adapter.MachineJobDetailsAdapter;
+import com.app.asyncs.AddMachine;
 import com.app.asyncs.ErrorCodeListServices;
+import com.app.asyncs.MachineMasterServices;
 import com.app.asyncs.MasterSparePartsServices;
 import com.app.asyncs.TodaysJobServices;
 import com.app.database.SamgoSQLOpenHelper;
+import com.app.listners.AddMachineMasterListener;
 import com.app.listners.ErrorCodeListListener;
 import com.app.listners.MasterSparePartsListener;
 import com.app.listners.TodayJobsListener;
@@ -69,7 +72,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class TodayJobFragment extends Fragment
-		implements TodayJobsListener, MasterSparePartsListener, ErrorCodeListListener {
+		implements TodayJobsListener, MasterSparePartsListener, ErrorCodeListListener, AddMachineMasterListener {
 
 	View v;
 	private ListView jobList;
@@ -767,9 +770,9 @@ public class TodayJobFragment extends Fragment
 				jobListAdapter.notifyDataSetChanged();
 				SharedPreferences settings = getActivity().getSharedPreferences(PREFS_NAME, 0);
 				boolean loadSpareParts = settings.getBoolean("LoadSpareParts", false);
-				if (loadSpareParts) {
-
-				} else {
+//				if (loadSpareParts) {
+//
+//				} else {
 
 					SharedPreferences settings1 = getActivity().getSharedPreferences(PREFS_NAME, 0);
 					SharedPreferences.Editor editor = settings1.edit();
@@ -781,7 +784,7 @@ public class TodayJobFragment extends Fragment
 					editor.commit();
 
 					new MasterSparePartsServices(getActivity(), TodayJobFragment.this).execute();
-				}
+				//}
 
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -974,6 +977,29 @@ public class TodayJobFragment extends Fragment
 		}
 	}
 
+	@Override
+	public void getAllMachineMasterListResponse(String response) {
+		// TODO Auto-generated method stub
+		if (response != null) {
+			try {
+				// Log.e("TAG", "response >> " + response);
+
+				JSONArray jArr = new JSONArray(response);
+				db.deletemachineMasterAllJobRecords();
+				db.deletemachineManufacturerMasterrAllJobRecords();
+				db.deletemachineModelMasterAllJobRecords();
+				db.deletemachineTypeMasterAllJobRecords();
+				//Added by Sukesh
+
+				new AddMachine(getActivity(),TodayJobFragment.this).execute(jArr);
+
+			} catch (Exception e) {
+				// TODO: handle exception
+				e.printStackTrace();
+			}
+		}
+	}
+
     String sqlStatement="";
     int k=0;
 
@@ -983,7 +1009,7 @@ public class TodayJobFragment extends Fragment
         protected void onPreExecute() {
             super.onPreExecute();
 
-            progressDialog.setMessage("Synchronizing data....");
+            progressDialog.setMessage("Please Wait it will take few minutes ...");
             progressDialog.show();
             db.truncateSpareParts();
         }
@@ -995,12 +1021,12 @@ public class TodayJobFragment extends Fragment
                 int j = 0;
                 for (int i = 0; i < jsonArray.length(); i++) {
                     k = i;
-                    getActivity().runOnUiThread(new Runnable() {
-                        public void run() {
-                            // some code #3 (Write your code here to run in UI thread)
-                            progressDialog.setMessage("Synchronizing data...." + k + "/" + jsonArray.length());
-                        }
-                    });
+//                    getActivity().runOnUiThread(new Runnable() {
+//                        public void run() {
+//                            // some code #3 (Write your code here to run in UI thread)
+//                            progressDialog.setMessage("Synchronizing spare parts...." + k + "/" + jsonArray.length());
+//                        }
+//                    });
                     // progressDialog.setMessage("Synchronizing data...."+i+"/1000");
                     JSONObject jsonObject = jsonArray.getJSONObject(i);
                     JSONObject jsonObject1 = jsonObject.getJSONObject("SpareMaster");
@@ -1044,7 +1070,8 @@ public class TodayJobFragment extends Fragment
             super.onPostExecute(s);
             progressDialog.dismiss();
             k=0;
-            Toast.makeText(getActivity(),s,Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getActivity(),s,Toast.LENGTH_SHORT).show();
+			new MachineMasterServices("0", "-1", TodayJobFragment.this,getActivity()).execute();
         }
     }
 
