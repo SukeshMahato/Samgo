@@ -43,7 +43,7 @@ public class ErrorCodeListServices extends AsyncTask<Void, Void, String> {
 		// TODO Auto-generated method stub
 		super.onPreExecute();
 		progressBar = new ProgressDialog(mContext);
-		progressBar.setCancelable(true);
+		progressBar.setCancelable(false);
 		progressBar.setMessage("Please Wait it will take few minutes ...");
 		progressBar.setProgressStyle(ProgressDialog.STYLE_SPINNER);
 		progressBar.show();

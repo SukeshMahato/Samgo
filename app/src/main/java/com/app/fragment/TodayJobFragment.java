@@ -122,6 +122,7 @@ public class TodayJobFragment extends Fragment
 			} else {
 				SharedPreferences settings1 = getActivity().getSharedPreferences(PREFS_NAME, 0);
 				SharedPreferences.Editor editor = settings1.edit();
+				new ErrorCodeListServices(TodayJobFragment.this, getActivity()).execute();
 				// Set "hasLoggedIn" to true
 				editor.putString("TodayJobDate", getDateTime());
 				// Commit the edits!
