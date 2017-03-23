@@ -240,11 +240,8 @@ public class CreateDocketActivityPart3 extends Activity {
 				if (db.getCheckForParkJob(Config.job_id)) {
 
 					String dateStr = preferences.getString("check_in_date_time", "null");
-
 					db.updateJobTableAtCloseDocket(Config.job_id, getDateTime());
-
 					Log.e("TAG", "chech_in time >> " + dateStr);
-
 					if (!db.getCountWorkDoneForJob(Config.job_id)) {
 						DocketList docketList = new DocketList();
 

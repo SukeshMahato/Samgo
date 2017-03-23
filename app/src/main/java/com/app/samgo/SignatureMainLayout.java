@@ -103,6 +103,7 @@ public class SignatureMainLayout extends Activity {
 					intent.putExtras(b);
 					setResult(RESULT_OK, intent);
 					startActivity(intent);
+					finish();
 
 				}
 			}

@@ -40,17 +40,17 @@ public class MachineMasterServices extends AsyncTask<Void, Void, String> {
 		this.limit = limit;
 	}
 
-	@Override
-	protected void onPreExecute() {
-		// TODO Auto-generated method stub
-		super.onPreExecute();
-		progressBar = new ProgressDialog(mContext);
-		progressBar.setCancelable(false);
-		progressBar.setMessage("Please Wait it will take few minutes ...");
-		progressBar.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-		progressBar.show();
-		
-	}
+//	@Override
+//	protected void onPreExecute() {
+//		// TODO Auto-generated method stub
+//		super.onPreExecute();
+//		progressBar = new ProgressDialog(mContext);
+//		progressBar.setCancelable(false);
+//		progressBar.setMessage("Please Wait it will take few minutes to sync machines...");
+//		progressBar.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+//		progressBar.show();
+//
+//	}
 
 	@Override
 	protected String doInBackground(Void... params) {
@@ -114,7 +114,7 @@ public class MachineMasterServices extends AsyncTask<Void, Void, String> {
 //		}catch(Exception e){
 //			e.printStackTrace();
 //		}
-		progressBar.dismiss();
+		//progressBar.dismiss();
 		try {
 			callback.getAllMachineMasterListResponse(requestMessage);
 		} catch (Exception e) {

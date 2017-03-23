@@ -38,17 +38,17 @@ public class ErrorCodeListServices extends AsyncTask<Void, Void, String> {
 		this.callback = (ErrorCodeListListener) frag;
 	}
 
-	@Override
-	protected void onPreExecute() {
-		// TODO Auto-generated method stub
-		super.onPreExecute();
-		progressBar = new ProgressDialog(mContext);
-		progressBar.setCancelable(false);
-		progressBar.setMessage("Please Wait it will take few minutes ...");
-		progressBar.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-		progressBar.show();
-
-	}
+//	@Override
+//	protected void onPreExecute() {
+//		// TODO Auto-generated method stub
+//		super.onPreExecute();
+//		progressBar = new ProgressDialog(mContext);
+//		progressBar.setCancelable(false);
+//		progressBar.setMessage("Please Wait it will take few minutes ...");
+//		progressBar.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+//		progressBar.show();
+//
+//	}
 
 	@Override
 	protected String doInBackground(Void... params) {
@@ -102,11 +102,11 @@ public class ErrorCodeListServices extends AsyncTask<Void, Void, String> {
 
 		try {
 			callback.getAllErrorCode(RequestMessage);
-			progressBar.dismiss();
+			//progressBar.dismiss();
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
-			progressBar.dismiss();
+			//progressBar.dismiss();
 		}
 	}
 

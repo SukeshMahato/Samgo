@@ -43,11 +43,11 @@ public class TodaysJobServices extends AsyncTask<Void, Void, String> {
 	protected void onPreExecute() {
 		// TODO Auto-generated method stub
 		super.onPreExecute();
-		progressBar = new ProgressDialog(mContext);
-		progressBar.setCancelable(false);
-		progressBar.setMessage("Please wait for some time...");
-		progressBar.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-		progressBar.show();
+//		progressBar = new ProgressDialog(mContext);
+//		progressBar.setCancelable(false);
+//		progressBar.setMessage("Please wait for some time...");
+//		progressBar.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+//		progressBar.show();
 	}
 	
 
@@ -95,7 +95,7 @@ public class TodaysJobServices extends AsyncTask<Void, Void, String> {
 	protected void onPostExecute(String RequestMessage) {
 		// TODO Auto-generated method stub
 		super.onPostExecute(RequestMessage);
-		progressBar.dismiss();
+		//progressBar.dismiss();
 		try {
 			callback.getTodaysJobResponse(RequestMessage);
 		} catch (Exception e) {

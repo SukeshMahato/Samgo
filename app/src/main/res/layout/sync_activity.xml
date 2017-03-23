@@ -22,6 +22,13 @@
             android:textSize="20sp"
             android:textStyle="bold" />
     </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <TextView
         android:id="@+id/synctext"
@@ -35,15 +42,31 @@
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/sync"
+        android:id="@+id/upload"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:layout_marginRight="50dp"
         android:background="@color/drawer_blue"
         android:gravity="center"
-        android:text="Sync All Data"
+        android:text="Upload"
         android:textColor="@color/white"
         android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/download"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="50dp"
+            android:background="@color/drawer_blue"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Download"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

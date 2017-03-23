@@ -25,6 +25,7 @@ import com.app.asyncs.MasterSparePartsServices;
 import com.app.asyncs.TodaysJobServices;
 import com.app.database.SamgoSQLOpenHelper;
 import com.app.listners.AddMachineMasterListener;
+import com.app.listners.DialogDissmiss;
 import com.app.listners.ErrorCodeListListener;
 import com.app.listners.MasterSparePartsListener;
 import com.app.listners.TodayJobsListener;
@@ -72,16 +73,15 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class TodayJobFragment extends Fragment
-		implements TodayJobsListener, MasterSparePartsListener, ErrorCodeListListener, AddMachineMasterListener {
+		implements TodayJobsListener, MasterSparePartsListener, ErrorCodeListListener, AddMachineMasterListener,DialogDissmiss {
 
 	View v;
 	private ListView jobList;
-	String response="";
 	ProgressDialog progressDialog;
-	JSONArray jsonArray;
+
 
 	private JobListAdapter jobListAdapter;
-	private ProgressDialog progressBar;
+
 	private ArrayList<Job> jobDataList = new ArrayList<Job>();
 	// flag for Internet connection status
 	Boolean isInternetPresent = false;
@@ -112,7 +112,7 @@ public class TodayJobFragment extends Fragment
 			String todaysjobDate = settings.getString("TodayJobDate", "test");
 			if (todaysjobDate.equalsIgnoreCase(getDateTime())) {
 				Log.e("TAG", "TESTING >>> <<<");
-				new ErrorCodeListServices(TodayJobFragment.this, getActivity()).execute();
+				//new ErrorCodeListServices(TodayJobFragment.this, getActivity()).execute();
 				jobDataList.clear();
 				jobDataList = db.getAllDataFromJobForToday(getDateTime());
 				jobListAdapter = new JobListAdapter(TodayJobFragment.this, getActivity(), jobDataList);
@@ -122,11 +122,14 @@ public class TodayJobFragment extends Fragment
 			} else {
 				SharedPreferences settings1 = getActivity().getSharedPreferences(PREFS_NAME, 0);
 				SharedPreferences.Editor editor = settings1.edit();
-				new ErrorCodeListServices(TodayJobFragment.this, getActivity()).execute();
+
 				// Set "hasLoggedIn" to true
 				editor.putString("TodayJobDate", getDateTime());
 				// Commit the edits!
 				editor.commit();
+				progressDialog.setMessage("Please wait it will take few minutes....");
+				progressDialog.show();
+				new ErrorCodeListServices(TodayJobFragment.this, getActivity()).execute();
 				new TodaysJobServices(this, AppManager.getSinleton().getUser().getId(), getActivity()).execute();
 			}
 		} else {
@@ -1004,7 +1007,12 @@ public class TodayJobFragment extends Fragment
     String sqlStatement="";
     int k=0;
 
-    public class UpdateSparePartsToDatabase extends AsyncTask<JSONArray,Void,String> {
+	@Override
+	public void getDismissCommand() {
+		progressDialog.dismiss();
+	}
+
+	public class UpdateSparePartsToDatabase extends AsyncTask<JSONArray,Void,String> {
 
         @Override
         protected void onPreExecute() {

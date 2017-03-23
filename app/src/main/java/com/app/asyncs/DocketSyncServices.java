@@ -54,7 +54,7 @@ public class DocketSyncServices extends AsyncTask<Void, Void, String> {
 		// TODO Auto-generated method stub
 		super.onPreExecute();
 		progressBar = new ProgressDialog(activity);
-		progressBar.setCancelable(true);
+		progressBar.setCancelable(false);
 		progressBar.setMessage("Please wait while we are syncing your data ...");
 		progressBar.setProgressStyle(ProgressDialog.STYLE_SPINNER);
 		progressBar.show();
