@@ -627,9 +627,7 @@ public class FragmentMachines extends Fragment implements MachineListListener {
 		String machineSlNo = machineDataList.get(position).getMachine_si_no();
 
 		Config.machineSlNo = machineSlNo;
-
 		Intent gotoVideoActivity = new Intent(getContext(), MachineDetails.class);
-
 		Log.e("TAG", "machineSlNo>>" + machineSlNo);
 		
 		startActivity(gotoVideoActivity);

@@ -332,21 +332,14 @@ public class FragmentJobs extends Fragment implements JobsListListener {
 				JSONArray jArr = new JSONArray(response);
 				jobDataList.clear();
 				jobDataList2.clear();
-
 				db.deleteJobListAllJobRecords();
-				// db.truncateTableForMachineLIst();
-
-				// db.deleteAllRecordsForMachineView();
 
 				for (int i = 0; i < jArr.length(); i++) {
 					String jsonObject = jArr.getString(i);
 
 					JSONObject jObj = new JSONObject(jsonObject);
-
 					String jsonJobObject = jObj.getString("Job");
-
 					JSONObject jobObj = new JSONObject(jsonJobObject);
-
 					String title = jobObj.getString("title");
 					String docket_no = jobObj.getString("docket_no");
 					String id = jobObj.getString("id");
@@ -785,6 +778,7 @@ public class FragmentJobs extends Fragment implements JobsListListener {
 		Log.e("TAG", "site id passes>> " + Config.site_id);
 		Log.e("TAG", "client id passes>> " + Config.client_id);
 		Log.e("TAG", "docket id passes>> " + Config.docket_id);
+
 
 		Intent startJob = new Intent(getContext(), CreateDocketActivity.class);
 		startJob.putExtra("DocketNo", docket_no);

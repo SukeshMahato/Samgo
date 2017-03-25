@@ -245,8 +245,8 @@ public class CreateDocketActivityPart3 extends Activity {
 					if (!db.getCountWorkDoneForJob(Config.job_id)) {
 						DocketList docketList = new DocketList();
 
-						if (db.getCountForDocket(Config.job_id) > 0) {
-							docketList.setJob_id(Config.job_id);
+						if (db.getCountForDocket(Config.docket_id) > 0) {
+							docketList.setJob_id(Config.docket_id);
 							docketList.setUsertype_id("1");
 							docketList.setEngg_id(AppManager.getSinleton().getUser().getId());
 							docketList.setDocket_date(getDateTime());
@@ -261,11 +261,11 @@ public class CreateDocketActivityPart3 extends Activity {
 
 							db.updateDocket(docketList);
 							Log.e("TAG", "Saved Sucessfully::" + Config.job_id);
-							db.updateJobTable(Config.job_id);
+							db.updateJobTable(Config.docket_id);
 							Toast.makeText(getApplicationContext(), "Docket Saved Successfully", Toast.LENGTH_LONG)
 									.show();
 						} else {
-							docketList.setJob_id(Config.job_id);
+							docketList.setJob_id(Config.docket_id);
 							docketList.setUsertype_id("1");
 							docketList.setEngg_id(AppManager.getSinleton().getUser().getId());
 							docketList.setDocket_date(getDateTime());
@@ -277,9 +277,8 @@ public class CreateDocketActivityPart3 extends Activity {
 							docketList.setDocket_complete("0");
 							docketList.setSignName(signName);
 							docketList.setSignDecode(signDecode);
-
 							db.addDocketList(docketList);
-							db.updateJobTable(Config.job_id);
+							db.updateJobTable(Config.docket_id);
 							Log.e("TAG", "Saved Sucessfully::" + Config.job_id);
 							Toast.makeText(getApplicationContext(), "Docket Saved Successfully", Toast.LENGTH_LONG)
 									.show();
@@ -288,6 +287,7 @@ public class CreateDocketActivityPart3 extends Activity {
 						Intent goToFragmentJob = new Intent(CreateDocketActivityPart3.this, MainActivity.class);
 						goToFragmentJob.putExtra("FROMSTARTACT", "close");
 						startActivity(goToFragmentJob);
+						finish();
 
 					} else {
 						Log.e("TAG", "Not Saved");
@@ -533,8 +533,7 @@ public class CreateDocketActivityPart3 extends Activity {
 		dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		dialog.setContentView(R.layout.add_spare_parts);
 
-		SparePartsModel sparePartsModel = db.getSparePartsById(spare_id);
-
+		SparePartsModel sparePartsModel = db.getSparePartsById(spare_id,machine_id);
 		spareParts = (AutoCompleteTextView) dialog.findViewById(R.id.spare_parts_name);
 		final EditText quantity = (EditText) dialog.findViewById(R.id.quantity);
 		final EditText description = (EditText) dialog.findViewById(R.id.description);

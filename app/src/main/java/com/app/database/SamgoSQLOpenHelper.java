@@ -1304,7 +1304,7 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 
 		SQLiteDatabase db = this.getReadableDatabase();
 
-		String selectQuery = "SELECT  * FROM " + TABLE_JOB_LIST + " WHERE " + JOB_ID + "= ?";
+		String selectQuery = "SELECT  * FROM " + TABLE_JOB_LIST + " WHERE " + DOCKET_ID + "= ?";
 		String[] whereArgs = new String[] { jobId };
 
 		Cursor cursor = db.rawQuery(selectQuery, whereArgs);
@@ -1315,7 +1315,6 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 				String job_title = cursor.getString(3);
 				String site_name = cursor.getString(5);
 				String client_name = cursor.getString(9);
-
 				jobItem.setJobId(docket_id);
 				jobItem.setJobTitle(job_title);
 				jobItem.setSiteName(site_name);
@@ -3285,13 +3284,13 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 		db.close();
 	}
 
-	public SparePartsModel getSparePartsById(String spare_id) {
+	public SparePartsModel getSparePartsById(String spare_id,String machine_id) {
 		SparePartsModel sparePartsModel = new SparePartsModel();
 
 		SQLiteDatabase db = this.getReadableDatabase();
 
 		String rawQuery = "SELECT id, spare_id, product_id, description, quantity, sales_price FROM "
-				+ TABLE_SPARE_ADDED_MACHINE + " where id= " + spare_id + " and " + SPARE_ADDED_MACHINE_ID + "=0";
+				+ TABLE_SPARE_ADDED_MACHINE + " where "+SPARE_ADDED_JOB_ID+"= " + spare_id + " and " + SPARE_ADDED_MACHINE_ID + "="+machine_id;
 
 		Cursor cursor = db.rawQuery(rawQuery, null);
 
@@ -3304,15 +3303,16 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 			sparePartsModel.setQuantity(cursor.getString(4));
 			sparePartsModel.setUnitSales(cursor.getString(5));
 
-			// Log.e("TAG", "Spare Id >> " + cursor.getString(0));
-			// Log.e("TAG", "Spare Id >> " + cursor.getString(1));
-			// Log.e("TAG", "Spare Parts Id >> " + cursor.getString(2));
-			// Log.e("TAG", "Description >> " + cursor.getString(3));
-			// Log.e("TAG", "Quantity >> " + cursor.getString(4));
-			// Log.e("TAG", "Price >> " + cursor.getString(5));
+			 Log.e("TAG", "Spare Id >> " + cursor.getString(0));
+			 Log.e("TAG", "Spare Id >> " + cursor.getString(1));
+			 Log.e("TAG", "Spare Parts Id >> " + cursor.getString(2));
+			 Log.e("TAG", "Description >> " + cursor.getString(3));
+			 Log.e("TAG", "Quantity >> " + cursor.getString(4));
+			 Log.e("TAG", "Price >> " + cursor.getString(5));
 		}
 
 		db.close();
+		cursor.close();
 
 		return sparePartsModel;
 	}
@@ -3611,6 +3611,7 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 				// Log.e("TAG", "status >> " + status);
 
 				docketList.setJob_id(job_id);
+				docketList.setEngg_id(cursor.getString(2));
 				docketList.setDocket_date(cursor.getString(3));
 				docketList.setCheck_in(cursor.getString(4));
 				docketList.setCheck_out(cursor.getString(5));

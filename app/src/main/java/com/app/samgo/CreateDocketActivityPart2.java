@@ -182,16 +182,24 @@ public class CreateDocketActivityPart2 extends Activity {
 					docketMachineDetails.setMachineSlNo(machineView.getMachine_sl_no());
 					docketMachineDetails.setMachineId(machineId);
 					docketMachineDetails.setJobDetailId(id);
-
 					docketMachineArray.add(docketMachineDetails);
 				}
+                SparePartsModel sparePartsModel = db.getSparePartsById(Config.docket_id,jobDetailsArray.get(i).getMachineId());
+                sparePartsArray.add(sparePartsModel);
+               // Log.e("Length",jobDetailsArray.get(i).getJobId());
 
 			}
+
+
+            //Log.e("Length",sparePartsArray.get(0).getQuantity());
+
+            //db.addSpareToMachine(sparePartsModel);
 
 			docketMachineDetailsAdapter = new DocketMachineDetailsAdapter(this, docketMachineArray, sparePartsArray,
 					db);
 			docket_machine_list.setAdapter(docketMachineDetailsAdapter);
 			docketMachineDetailsAdapter.notifyDataSetChanged();
+            //sparePartsArray.clear();
 		}
 
 		addMachine.setOnClickListener(new OnClickListener() {
@@ -250,9 +258,7 @@ public class CreateDocketActivityPart2 extends Activity {
 	public void openGalleryForPickingImage(int position) {
 
 		Config.machineSlNo = docketMachineArray.get(position).getMachineSlNo();
-
 		jobDetailId = docketMachineArray.get(position).getJobDetailId();
-
 		selectImage();
 	}
 
@@ -415,7 +421,7 @@ public class CreateDocketActivityPart2 extends Activity {
 				String quantityName = quantity.getText().toString();
 				String descriptionName = description.getText().toString();
 
-				sparePartsModel.setJobId(job_id);
+				sparePartsModel.setJobId(Config.docket_id);
 				sparePartsModel.setSpareId(spareId);
 				sparePartsModel.setSparePartsId(sparePartsName);
 				sparePartsModel.setDescription(descriptionName);
@@ -424,6 +430,11 @@ public class CreateDocketActivityPart2 extends Activity {
 				sparePartsModel.setMachineId(machine_id);
 
 				sparePartsArray.add(sparePartsModel);
+                Log.e("jobid",job_id);
+                Log.e("spareid",spareId);
+                Log.e("spareUnitSales",spareUnitSales);
+                Log.e("machine_id",machine_id);
+
 
 				db.addSpareToMachine(sparePartsModel);
 

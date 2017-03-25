@@ -192,7 +192,7 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 			});
 
 			if (sparePartsArray.size() > 0
-					&& tmpValues.getMachineId().equalsIgnoreCase(sparePartsArray.get(0).getMachineId())) {
+					) {
 
 				viewHolder.sparePartsLayout.setVisibility(View.VISIBLE);
 

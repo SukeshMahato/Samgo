@@ -75,6 +75,7 @@ public class FragmentDocketList extends Fragment {
 		docketDataList.clear();
 
 		docketDataList = db.getDocketDetails();
+        Log.e("docketno",docketDataList.get(0).getJob_id()+"");
 
 		docketListAdapter = new DocketListsAdapter(getActivity(), docketDataList, FragmentDocketList.this, db);
 		docketList.setAdapter(docketListAdapter);
@@ -100,8 +101,16 @@ public class FragmentDocketList extends Fragment {
 	}
 
 	public void openDocketListPage(int position) {
+		String docket_no = docketDataList.get(position).getJob_id();
+        Config.docket_id = docket_no;
+        Log.e("docketno",docket_no);
 
+
+//        Config.site_id = site_id;
+//        Config.client_id = client_id;
+//        Config.docket_id = docket_no;
 		Intent goToDocketList = new Intent(getContext(), CreateDocketActivity.class);
+		goToDocketList.putExtra("DocketNo", docket_no);
 		startActivity(goToDocketList);
 
 	}
