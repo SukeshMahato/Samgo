@@ -240,7 +240,6 @@ public class CreateDocketActivityPart2 extends Activity {
 	public void openMachineDetails(int position) {
 
 		Config.machineSlNo = docketMachineArray.get(position).getMachineSlNo();
-
 		Intent machineDetails = new Intent(CreateDocketActivityPart2.this, MachineDetails.class);
 		startActivity(machineDetails);
 
