@@ -2856,12 +2856,12 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 
 	}
 
-	public void deleteSparePartsByMachineId(String machineId) {
+	public void deleteSparePartsByMachineId(String docketid,String machine_id) {
 
 		SQLiteDatabase db = this.getReadableDatabase();
 
-		String sql = "DELETE FROM " + TABLE_SPARE_ADDED_MACHINE + " WHERE " + SPARE_ADDED_MACHINE_ID + " = "
-				+ machineId;
+		String sql = "DELETE FROM " + TABLE_SPARE_ADDED_MACHINE + " WHERE " + SPARE_ADDED_JOB_ID + " = "
+				+ docketid + " and " + SPARE_ADDED_MACHINE_ID + "="+machine_id;
 
 		db.execSQL(sql);
 	}

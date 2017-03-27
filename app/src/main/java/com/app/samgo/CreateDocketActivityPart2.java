@@ -191,11 +191,10 @@ public class CreateDocketActivityPart2 extends Activity {
 			}
 
 
-            //Log.e("Length",sparePartsArray.get(0).getQuantity());
+            Log.e("Length",sparePartsArray.size()+"");
 
             //db.addSpareToMachine(sparePartsModel);
-
-			docketMachineDetailsAdapter = new DocketMachineDetailsAdapter(this, docketMachineArray, sparePartsArray,
+            docketMachineDetailsAdapter = new DocketMachineDetailsAdapter(this, docketMachineArray, sparePartsArray,
 					db);
 			docket_machine_list.setAdapter(docketMachineDetailsAdapter);
 			docketMachineDetailsAdapter.notifyDataSetChanged();
@@ -314,15 +313,10 @@ public class CreateDocketActivityPart2 extends Activity {
 					TextView tv = (TextView) rl.getChildAt(0);
 					TextView tv1 = (TextView) rl.getChildAt(1);
 					TextView tv2 = (TextView) rl.getChildAt(2);
-
 					spareParts.setText(tv.getText().toString());
-
 					spareId = tv1.getText().toString();
-
 					spareUnitSales = tv2.getText().toString();
-
 					String[] spareDesc = tv.getText().toString().split(Pattern.quote("||"));
-
 					description.setText(spareDesc[2]);
 
 				}
@@ -433,8 +427,6 @@ public class CreateDocketActivityPart2 extends Activity {
                 Log.e("spareid",spareId);
                 Log.e("spareUnitSales",spareUnitSales);
                 Log.e("machine_id",machine_id);
-
-
 				db.addSpareToMachine(sparePartsModel);
 
 				docketMachineDetailsAdapter = new DocketMachineDetailsAdapter(CreateDocketActivityPart2.this,
@@ -674,15 +666,11 @@ public class CreateDocketActivityPart2 extends Activity {
 				dialog.dismiss();
 
 				db.deleteJobDetailsById(jobDetailId);
-				db.deleteSparePartsByMachineId(machineId);
+				db.deleteSparePartsByMachineId(Config.docket_id,machineId);
 				db.deleteDocketDetailByJobdetailId(jobDetailId);
-
 				ArrayList<JobDetails> jobDetailsArray = new ArrayList<JobDetails>();
-
 				jobDetailsArray.clear();
-
 				docketMachineArray.clear();
-
 				jobDetailsArray = db.getAllJobDetails(jobId);
 
 				for (int i = 0; i < jobDetailsArray.size(); i++) {
@@ -715,6 +703,80 @@ public class CreateDocketActivityPart2 extends Activity {
 		dialog.show();
 
 	}
+
+    public void deleteSpareParts(final int position) {
+
+        final Dialog dialog = new Dialog(CreateDocketActivityPart2.this, R.style.PauseDialog);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.custom_pop_up_for_delete_machine);
+
+        Button cancelCompletion = (Button) dialog.findViewById(R.id.cancel_completion);
+        Button ok_completion = (Button) dialog.findViewById(R.id.ok_delete_machine);
+
+        final String jobDetailId = docketMachineArray.get(position).getJobDetailId();
+
+        final String machineId = docketMachineArray.get(position).getMachineId();
+
+        final String jobId = docketMachineArray.get(position).getJobId();
+
+        cancelCompletion.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                dialog.dismiss();
+            }
+        });
+
+        ok_completion.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                dialog.dismiss();
+
+               // db.deleteJobDetailsById(jobDetailId);
+                db.deleteSparePartsByMachineId(Config.docket_id,machineId);
+                //db.deleteDocketDetailByJobdetailId(jobDetailId);
+                ArrayList<JobDetails> jobDetailsArray = new ArrayList<JobDetails>();
+                jobDetailsArray.clear();
+                docketMachineArray.clear();
+				sparePartsArray.clear();
+                jobDetailsArray = db.getAllJobDetails(jobId);
+
+                for (int i = 0; i < jobDetailsArray.size(); i++) {
+
+                    String machineId = jobDetailsArray.get(i).getMachineId();
+                    String job_id = jobDetailsArray.get(i).getJobId();
+                    String id = jobDetailsArray.get(i).getId();
+
+                    MachineView machineView = db.getMachineViewDataByMachineId(machineId);
+
+                    DocketMachineDetails docketMachineDetails = new DocketMachineDetails();
+                    docketMachineDetails.setJobId(job_id);
+                    docketMachineDetails.setMachineName(machineView.getMachine_master_name());
+                    docketMachineDetails.setMachineModel(machineView.getMachine_model());
+                    docketMachineDetails.setMachineType(machineView.getMachine_type());
+                    docketMachineDetails.setMachineSlNo(machineView.getMachine_sl_no());
+                    docketMachineDetails.setMachineId(machineId);
+                    docketMachineDetails.setJobDetailId(id);
+
+                    docketMachineArray.add(docketMachineDetails);
+//                    SparePartsModel sparePartsModel = db.getSparePartsById(Config.docket_id,jobDetailsArray.get(i).getMachineId());
+//                    sparePartsArray.add(sparePartsModel);
+                }
+
+
+                docketMachineDetailsAdapter = new DocketMachineDetailsAdapter(CreateDocketActivityPart2.this,
+                        docketMachineArray, sparePartsArray, db);
+                docket_machine_list.setAdapter(docketMachineDetailsAdapter);
+                docketMachineDetailsAdapter.notifyDataSetChanged();
+            }
+        });
+
+        dialog.show();
+
+    }
 
 	private void cameraIntent() {
 		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

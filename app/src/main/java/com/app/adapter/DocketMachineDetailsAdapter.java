@@ -193,7 +193,7 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 
 			if (sparePartsArray.size() > 0
 					) {
-
+				Log.e("TAG", "values >> " + sparePartsArray.get(0).getDescription());
 				viewHolder.sparePartsLayout.setVisibility(View.VISIBLE);
 
 				for (int j = 0; j < sparePartsArray.size(); j++) {
@@ -215,7 +215,7 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 					TextView description = (TextView) mLinearView.findViewById(R.id.spare_description);
 					TextView quantity = (TextView) mLinearView.findViewById(R.id.spare_quantity);
 					TextView unitsales = (TextView) mLinearView.findViewById(R.id.spare_unit_sales);
-
+					ImageView deleteSpareParts = (ImageView) mLinearView.findViewById(R.id.delete_spare_parts);
 					/**
 					 * set item into row
 					 */
@@ -228,6 +228,16 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 					description.setText(descriptionText);
 					quantity.setText(quantityText);
 					unitsales.setText(unitsalesText);
+
+                    deleteSpareParts.setOnClickListener(new OnClickListener() {
+
+                        @Override
+                        public void onClick(View v) {
+                            // TODO Auto-generated method stub
+
+                            ((CreateDocketActivityPart2) activity).deleteSpareParts(position);
+                        }
+                    });
 
 					/**
 					 * add view in top linear

@@ -68,6 +68,7 @@
                 android:layout_height="50dp"
                 android:gravity="center"
                 android:padding="5dp"
+                android:visibility="gone"
                 android:src="@drawable/view_document" />
 
             <ImageView
