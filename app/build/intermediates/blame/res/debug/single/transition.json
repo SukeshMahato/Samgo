@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_slide.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\transition\\activity_slide.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_slide.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\transition\\activity_slide.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_fade.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\transition\\activity_fade.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_fade.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\transition\\activity_fade.xml"
     }
 ]

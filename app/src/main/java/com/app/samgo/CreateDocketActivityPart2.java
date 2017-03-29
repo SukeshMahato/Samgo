@@ -71,7 +71,7 @@ public class CreateDocketActivityPart2 extends Activity {
 
 	private ListView docket_machine_list;
 
-	private ArrayList<SparePartsModel> sparePartsArray = new ArrayList<SparePartsModel>();
+	private ArrayList<SparePartsModel>  sparePartsArray = new ArrayList<SparePartsModel>();
 
 	String spareId = "";
 	String spareUnitSales = "0.00";
@@ -157,13 +157,10 @@ public class CreateDocketActivityPart2 extends Activity {
 			Log.e("TAG", "PART 2 Job id::" + jobId);
 
 			Config.job_id = jobId;
-
 			ArrayList<JobDetails> jobDetailsArray = new ArrayList<JobDetails>();
-
 			jobDetailsArray.clear();
-
+            sparePartsArray.clear();
 			jobDetailsArray = db.getAllJobDetails(jobId);
-
 			for (int i = 0; i < jobDetailsArray.size(); i++) {
 
 				String machineId = jobDetailsArray.get(i).getMachineId();
@@ -183,9 +180,10 @@ public class CreateDocketActivityPart2 extends Activity {
 					docketMachineDetails.setMachineId(machineId);
 					docketMachineDetails.setJobDetailId(id);
 					docketMachineArray.add(docketMachineDetails);
+                    SparePartsModel sparePartsModel = db.getSparePartsById(Config.job_id,jobDetailsArray.get(i).getMachineId());
+                    sparePartsArray.add(sparePartsModel);
 				}
-                SparePartsModel sparePartsModel = db.getSparePartsById(Config.docket_id,jobDetailsArray.get(i).getMachineId());
-                sparePartsArray.add(sparePartsModel);
+
                // Log.e("Length",jobDetailsArray.get(i).getJobId());
 
 			}
@@ -241,8 +239,7 @@ public class CreateDocketActivityPart2 extends Activity {
 		Config.machineSlNo = docketMachineArray.get(position).getMachineSlNo();
 		Intent machineDetails = new Intent(CreateDocketActivityPart2.this, MachineDetails.class);
 		startActivity(machineDetails);
-
-	}
+ 	}
 
 	public void openCameraForScan() {
 
@@ -408,13 +405,14 @@ public class CreateDocketActivityPart2 extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
+				//sparePartsArray.clear();
 				SparePartsModel sparePartsModel = new SparePartsModel();
 
 				String sparePartsName = spareParts.getText().toString();
 				String quantityName = quantity.getText().toString();
 				String descriptionName = description.getText().toString();
 
-				sparePartsModel.setJobId(Config.docket_id);
+				sparePartsModel.setJobId(Config.job_id);
 				sparePartsModel.setSpareId(spareId);
 				sparePartsModel.setSparePartsId(sparePartsName);
 				sparePartsModel.setDescription(descriptionName);
@@ -751,7 +749,6 @@ public class CreateDocketActivityPart2 extends Activity {
                     String id = jobDetailsArray.get(i).getId();
 
                     MachineView machineView = db.getMachineViewDataByMachineId(machineId);
-
                     DocketMachineDetails docketMachineDetails = new DocketMachineDetails();
                     docketMachineDetails.setJobId(job_id);
                     docketMachineDetails.setMachineName(machineView.getMachine_master_name());

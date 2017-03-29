@@ -3289,7 +3289,7 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 
 		SQLiteDatabase db = this.getReadableDatabase();
 
-		String rawQuery = "SELECT id, spare_id, product_id, description, quantity, sales_price FROM "
+		String rawQuery = "SELECT id, spare_id, product_id, description, quantity, sales_price,machine_id,spare_job_id FROM "
 				+ TABLE_SPARE_ADDED_MACHINE + " where "+SPARE_ADDED_JOB_ID+"= " + spare_id + " and " + SPARE_ADDED_MACHINE_ID + "="+machine_id;
 
 		Cursor cursor = db.rawQuery(rawQuery, null);
@@ -3302,6 +3302,8 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 			sparePartsModel.setDescription(cursor.getString(3));
 			sparePartsModel.setQuantity(cursor.getString(4));
 			sparePartsModel.setUnitSales(cursor.getString(5));
+			sparePartsModel.setMachineId(cursor.getString(6));
+            sparePartsModel.setJobId(cursor.getString(7));
 
 			 Log.e("TAG", "Spare Id >> " + cursor.getString(0));
 			 Log.e("TAG", "Spare Id >> " + cursor.getString(1));
@@ -3309,6 +3311,8 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 			 Log.e("TAG", "Description >> " + cursor.getString(3));
 			 Log.e("TAG", "Quantity >> " + cursor.getString(4));
 			 Log.e("TAG", "Price >> " + cursor.getString(5));
+            Log.e("TAG", "j >> " + cursor.getString(7));
+            Log.e("TAG", "m >> " + cursor.getString(6));
 		}
 
 		db.close();

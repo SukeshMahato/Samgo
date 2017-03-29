@@ -1,590 +1,590 @@
 [
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\calendar_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_training_list_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_training_list_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_upcoming_job.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_upcoming_job.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_machine_name.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\dropdown_machine_name.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spare_parts_details_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\spare_parts_details_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\common_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_details.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_details.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\country_one_row_model.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\country_one_row_model.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dashboard.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_details.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_details.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_one_row_model.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_one_row_model.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_machine_list_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_machine_list_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\training_video_list_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\training_video_list_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_manufacture_year.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\dropdown_manufacture_year.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\country_one_row_model.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\country_one_row_model.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_done_to_machine.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\work_done_to_machine.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_search_dialog_for_training.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_search_dialog_for_training.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_one_row_model.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_one_row_model.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_delete_machine.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_pop_up_for_delete_machine.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\work_done_to_machine.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\work_done_to_machine.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sync_activity.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\sync_activity.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_add_training.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_pop_up_for_add_training.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_media_action.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_manufacture_year.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\dropdown_manufacture_year.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_view_job.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_view_job.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_upcoming_job.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_upcoming_job.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_sites_activity.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\view_sites_activity.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_search_dialog_for_sites.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_search_dialog_for_sites.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_search_dialog_for_sites.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_search_dialog_for_sites.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location_updates.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\activity_location_updates.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\9.0.0\\res\\layout\\place_autocomplete_fragment.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_training_lists.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_training_lists.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.4.0\\res\\layout\\zxing_capture.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\change_layout_theme.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\change_layout_theme.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_documents_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_documents_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_docket_lists.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_docket_lists.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loginfailedalert.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\loginfailedalert.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_training_list_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_training_list_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_one_row_type.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_one_row_type.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_todays_job.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_todays_job.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_documents_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_documents_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_videos.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_videos.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_delete_spare_parts.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_pop_up_for_delete_spare_parts.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_video_list_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_video_list_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_nav_list.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\item_nav_list.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tomorrows_job_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\tomorrows_job_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tomorrows_job.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_tomorrows_job.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_training_list.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_training_list.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spare_parts_one_row.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\spare_parts_one_row.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\training_details.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\training_details.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\delete_activity.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\delete_activity.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\site_engineer_profile.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\site_engineer_profile.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\forgot_password.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\forgot_password.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_task_details.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_pop_up_for_task_details.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todays_job_gridview.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\todays_job_gridview.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\calendar_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_docket_page_machine_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\create_docket_page_machine_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_one_row_type.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_one_row_type.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location_updates.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\activity_location_updates.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loginfailedalert.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\loginfailedalert.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_capture.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.4.0\\res\\layout\\zxing_capture.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_site_list_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_site_list_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_one_row_name.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_one_row_name.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_working_order.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\dropdown_working_order.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\edit_machine_site.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\edit_machine_site.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_docket_page_machine_list.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\create_docket_page_machine_list.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_site_location.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\view_site_location.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_docket_page.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\create_docket_page.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scan_qr_code.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\scan_qr_code.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\manufacturer_one_row_name.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\manufacturer_one_row_name.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_trainee_name.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_pop_up_for_trainee_name.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_actionbar.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_actionbar.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_details_view.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_details_view.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_docket_lists.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_docket_lists.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todays_job_gridview_one_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\todays_job_gridview_one_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todays_job_machine_description_one_row.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\todays_job_machine_description_one_row.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_job_activity.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\view_job_activity.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\9.0.0\\res\\layout\\place_autocomplete_fragment.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_delete_machine.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_pop_up_for_delete_machine.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_search_dialog_for_job.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_search_dialog_for_job.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_lines.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_actionbar.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_actionbar.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_spare_parts.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\add_spare_parts.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_training_job_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_training_job_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\training_details.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\training_details.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\job_date_wise_view.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\job_date_wise_view.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todays_job_gridview_one_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\todays_job_gridview_one_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_machine_serial_no_popup.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\select_machine_serial_no_popup.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_docket_list.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\create_docket_list.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_country_model.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\dropdown_country_model.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_visual_inspection.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\dropdown_visual_inspection.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_machine_site_activity.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\add_machine_site_activity.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_error_code_popup.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\select_error_code_popup.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_trainee_name.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_pop_up_for_trainee_name.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_job_activity.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\start_job_activity.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icons_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\icons_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_job_activity.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\view_job_activity.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.4.0\\res\\layout\\zxing_barcode_scanner.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\job_date_wise_one_row_view.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\job_date_wise_one_row_view.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\job_date_wise_one_row_view.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\job_date_wise_one_row_view.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\9.0.0\\res\\layout\\place_autocomplete_progress.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_nav_list.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\item_nav_list.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_manufacturer_name.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\dropdown_manufacturer_name.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_complete_job.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_pop_up_for_complete_job.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_machine_lists.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_machine_lists.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\park_job.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\park_job.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_history_one_item_row.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\service_history_one_item_row.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_one_row_shift_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\common_one_row_shift_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_one_row_shift_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\common_one_row_shift_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_history_one_item_row.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\service_history_one_item_row.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\training_videos.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\training_videos.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_spare_parts.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\add_spare_parts.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_complete_job.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_pop_up_for_complete_job.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_history_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_history_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_machine_model.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\dropdown_machine_model.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spare_parts_details_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\spare_parts_details_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_job_activity.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\start_job_activity.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_one_row_name.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_one_row_name.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_job_list_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_job_list_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_job_lists.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_job_lists.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todays_job_gridview.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\todays_job_gridview.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_docket_page.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\create_docket_page.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_docket_list.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\create_docket_list.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_country_model.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\dropdown_country_model.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\9.0.0\\res\\layout\\place_autocomplete_item_prediction.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zxing_barcode_scanner.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.4.0\\res\\layout\\zxing_barcode_scanner.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_quantity_pop_up.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\select_quantity_pop_up.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_machine_site_activity.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\add_machine_site_activity.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_marks_avails.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\dropdown_marks_avails.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_search_view.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\forgot_password.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\forgot_password.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\logout_activity.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\logout_activity.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_working_order.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\dropdown_working_order.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\job_date_wise_view.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\job_date_wise_view.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_docket_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\create_docket_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\9.0.0\\res\\layout\\place_autocomplete_progress.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_docket_page_machine_list.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\create_docket_page_machine_list.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_details_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\task_details_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_search_dialog_for_machine.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_search_dialog_for_machine.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\9.0.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_job_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\start_job_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_details_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\task_details_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\training_video_list_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\training_video_list_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\site_engineer_profile.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\site_engineer_profile.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_todays_job.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_todays_job.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_details_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_details_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_machine_model.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\dropdown_machine_model.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_view_job.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_view_job.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_dialog.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_error_code_popup.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\select_error_code_popup.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_docket_list_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_docket_list_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_docket_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\create_docket_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\edit_machine_site.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\edit_machine_site.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_delete_spare_parts.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_pop_up_for_delete_spare_parts.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_quantity_pop_up.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\select_quantity_pop_up.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_site_list_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_site_list_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tomorrows_job.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_tomorrows_job.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabs_viewpager_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\tabs_viewpager_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scan_qr_code.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\scan_qr_code.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_details_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_details_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_site_lists.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_site_lists.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_site_location.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\view_site_location.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_videos.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_videos.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_add_training.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_pop_up_for_add_training.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_machine_lists.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_machine_lists.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\9.0.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\assign_machine_to_job.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\assign_machine_to_job.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\signature.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\signature.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\training_videos.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\training_videos.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_training_job_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_training_job_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_documents.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_documents.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_job_list_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_job_list_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_manufacturer_name.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\dropdown_manufacturer_name.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_machine_type.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\dropdown_machine_type.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_dialog.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\delete_activity.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\delete_activity.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabs_viewpager_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\tabs_viewpager_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_machine_list_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_machine_list_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\signature.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\signature.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_training_list.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_training_list.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todays_job_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\todays_job_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_visual_inspection.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\dropdown_visual_inspection.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spare_parts_one_row.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\spare_parts_one_row.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tomorrows_job_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\tomorrows_job_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_video_list_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\machine_video_list_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_details_view.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_details_view.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todays_job_machine_description_one_row.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\todays_job_machine_description_one_row.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_big_media.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\todays_job_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\todays_job_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dashboard.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_machine_type.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\dropdown_machine_type.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_pop_up_for_task_details.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_pop_up_for_task_details.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_search_dialog_for_machine.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\custom_search_dialog_for_machine.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_job_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\start_job_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_documents.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_documents.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_media.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_docket_list_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_docket_list_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\assign_machine_to_job.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\assign_machine_to_job.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\change_layout_theme.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\change_layout_theme.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\machine_history_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\machine_history_one_row_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_search_dialog_for_job.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_search_dialog_for_job.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\create_docket_page_machine_one_row_item.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\create_docket_page_machine_one_row_item.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_job_lists.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_job_lists.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icons_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\icons_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\logout_activity.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\logout_activity.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_site_lists.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_site_lists.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_search_dialog_for_training.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\custom_search_dialog_for_training.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_machine_name.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\dropdown_machine_name.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sync_activity.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\sync_activity.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\9.0.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\park_job.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\park_job.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_sites_activity.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\view_sites_activity.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_training_lists.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\fragment_training_lists.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\manufacturer_one_row_name.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\manufacturer_one_row_name.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dropdown_marks_avails.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\dropdown_marks_avails.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_machine_serial_no_popup.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\layout\\select_machine_serial_no_popup.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_one_row_item.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\layout\\common_one_row_item.xml"
     }
 ]

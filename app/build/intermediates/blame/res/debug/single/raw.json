@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.4.0\\res\\raw\\zxing_beep.ogg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.4.0\\res\\raw\\zxing_beep.ogg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\video_1.3gp",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\raw\\video_1.3gp"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\video_1.3gp",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\raw\\video_1.3gp"
     }
 ]

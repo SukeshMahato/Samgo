@@ -41,19 +41,12 @@ public class FragmentDocketList extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		v = inflater.inflate(R.layout.fragment_docket_lists, container, false);
-
 		this.initialisation();
-
 		this.listner();
-
 		db = new SamgoSQLOpenHelper(getContext());
-		
 		parentLayout = (RelativeLayout) v.findViewById(R.id.parent_layout);
-
 		SharedPreferences settings = getActivity().getSharedPreferences(Config.MYFREFS, 0);
-
 		String background_image = settings.getString("background_image", "test");
-
 		Log.e("TAG", "background_image >> " + background_image);
 
 		if (background_image != null) {
@@ -75,7 +68,7 @@ public class FragmentDocketList extends Fragment {
 		docketDataList.clear();
 
 		docketDataList = db.getDocketDetails();
-        Log.e("docketno",docketDataList.get(0).getJob_id()+"");
+        //Log.e("docketno",docketDataList.get(0).getJob_id()+"");
 
 		docketListAdapter = new DocketListsAdapter(getActivity(), docketDataList, FragmentDocketList.this, db);
 		docketList.setAdapter(docketListAdapter);

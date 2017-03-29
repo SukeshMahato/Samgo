@@ -191,6 +191,7 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 				}
 			});
 
+
 			if (sparePartsArray.size() > 0
 					) {
 				Log.e("TAG", "values >> " + sparePartsArray.get(0).getDescription());
@@ -201,50 +202,60 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 					 * inflate items/ add items in linear layout instead of
 					 * listview
 					 */
+				try {
+                    Log.e("TAG", "s >> " + sparePartsArray.get(j).getMachineId());
+                    Log.e("TAG", "m >> " + sparePartsArray.get(position).getMachineId());
 
-					Log.e("TAG", "size of i >> " + j);
+					if (sparePartsArray.get(j).getMachineId().equals( docketMachineArray.get(position).getMachineId())) {
 
-					LayoutInflater inflater1 = null;
-					inflater1 = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-					View mLinearView = inflater1.inflate(R.layout.spare_parts_details_one_row_item, null);
+						Log.e("TAG", "size of i >> " + j);
 
-					/**
-					 * getting id of row.xml
-					 */
-					TextView spareId = (TextView) mLinearView.findViewById(R.id.spare_parts_id);
-					TextView description = (TextView) mLinearView.findViewById(R.id.spare_description);
-					TextView quantity = (TextView) mLinearView.findViewById(R.id.spare_quantity);
-					TextView unitsales = (TextView) mLinearView.findViewById(R.id.spare_unit_sales);
-					ImageView deleteSpareParts = (ImageView) mLinearView.findViewById(R.id.delete_spare_parts);
-					/**
-					 * set item into row
-					 */
-					String spareIdText = sparePartsArray.get(j).getSparePartsId();
-					String descriptionText = sparePartsArray.get(j).getDescription();
-					String quantityText = sparePartsArray.get(j).getQuantity();
-					String unitsalesText = sparePartsArray.get(j).getUnitSales();
+						LayoutInflater inflater1 = null;
+						inflater1 = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+						View mLinearView = inflater1.inflate(R.layout.spare_parts_details_one_row_item, null);
 
-					spareId.setText(spareIdText);
-					description.setText(descriptionText);
-					quantity.setText(quantityText);
-					unitsales.setText(unitsalesText);
+						/**
+						 * getting id of row.xml
+						 */
+						TextView spareId = (TextView) mLinearView.findViewById(R.id.spare_parts_id);
+						TextView description = (TextView) mLinearView.findViewById(R.id.spare_description);
+						TextView quantity = (TextView) mLinearView.findViewById(R.id.spare_quantity);
+						TextView unitsales = (TextView) mLinearView.findViewById(R.id.spare_unit_sales);
+						ImageView deleteSpareParts = (ImageView) mLinearView.findViewById(R.id.delete_spare_parts);
+						/**
+						 * set item into row
+						 */
+						String spareIdText = sparePartsArray.get(j).getSparePartsId();
+						String descriptionText = sparePartsArray.get(j).getDescription();
+						String quantityText = sparePartsArray.get(j).getQuantity();
+						String unitsalesText = sparePartsArray.get(j).getUnitSales();
 
-                    deleteSpareParts.setOnClickListener(new OnClickListener() {
+						spareId.setText(spareIdText);
+						description.setText(descriptionText);
+						quantity.setText(quantityText);
+						unitsales.setText(unitsalesText);
 
-                        @Override
-                        public void onClick(View v) {
-                            // TODO Auto-generated method stub
+						deleteSpareParts.setOnClickListener(new OnClickListener() {
 
-                            ((CreateDocketActivityPart2) activity).deleteSpareParts(position);
-                        }
-                    });
+							@Override
+							public void onClick(View v) {
+								// TODO Auto-generated method stub
 
-					/**
-					 * add view in top linear
-					 */
+								((CreateDocketActivityPart2) activity).deleteSpareParts(position);
+							}
+						});
 
-					viewHolder.mLinearSpareDetails.addView(mLinearView);
-				}
+						/**
+						 * add view in top linear
+						 */
+
+						viewHolder.mLinearSpareDetails.addView(mLinearView);
+					}
+				}catch(Exception e){
+                    Log.e("exceptionCase",e.toString());
+                }
+
+			}
 
 			} else {
 				viewHolder.sparePartsLayout.setVisibility(View.GONE);

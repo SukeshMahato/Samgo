@@ -72,7 +72,7 @@ public class AssignMachineToJob extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
+				// TODO Auto-generated me thod stub
 				Log.e("TAG", "clicked on");
 
 				final Dialog dialog = new Dialog(AssignMachineToJob.this, R.style.TopToBottomDialog);

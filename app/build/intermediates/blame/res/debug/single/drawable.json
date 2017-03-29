@@ -1,734 +1,734 @@
 [
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\maparrow1.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\maparrow1.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_2.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\arrow_2.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clock.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\clock.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\file_download.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\file_download.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\file_download.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\file_download.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_progress_horizontal_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_progress_horizontal_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\voltage.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\voltage.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_4.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\background_4.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_edittext.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\border_edittext.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_location_drawable.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\start_location_drawable.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_machine_red.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\add_machine_red.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_location_right.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\start_location_right.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_background_selector.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\layout_background_selector.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qrcode.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\qrcode.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_eye.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\view_eye.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\applauncher.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\applauncher.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\water.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\water.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_location_drawable.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\start_location_drawable.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_machine_white.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\add_machine_white.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrows.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\arrows.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\training.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\training.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back_image.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\back_image.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_machine.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\select_machine.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\arrow.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_machine.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\add_machine.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back_image.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\back_image.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_location_right.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\start_location_right.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_red.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\dot_red.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_border.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\search_border.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_default_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_btn_default_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_star_button.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\red_star_button.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_scrubber_control_selector_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_scrubber_control_selector_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_3.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\background_3.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_border.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\radio_border.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_border.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\textview_border.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_machine_white.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\add_machine_white.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine_tab_background_selector.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\machine_tab_background_selector.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pin.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\pin.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_background_selector.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\layout_background_selector.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_ratingbar_full_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_ratingbar_full_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_item_background_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\qrcode.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\qrcode.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\maparrow2.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\maparrow2.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_arrows.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\right_arrows.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_5.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\background_5.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_activated_background_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_activated_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mail.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\mail.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\machine.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\view.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textbox_background.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\textbox_background.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_fastscroll_thumb_holo.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_fastscroll_thumb_holo.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_arrow.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\left_arrow.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_border_grey.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\layout_border_grey.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\suction.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\suction.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_progress_horizontal_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_progress_horizontal_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\asp.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\asp.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_spare_parts.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\view_spare_parts.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_button.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\red_button.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_button.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\red_button.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\complete.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\complete.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loginlogo.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\loginlogo.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loginlogo.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\loginlogo.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_switch_track_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_switch_track_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\start.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine_type.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\machine_type.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_image.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\no_image.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_border.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\search_border.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_ratingbar_full_empty_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_ratingbar_full_empty_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\syndata.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\syndata.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calander.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\calander.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background_ab_custometheme.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\spinner_background_ab_custometheme.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\startjob.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\startjob.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_barcode.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\scan_barcode.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tr.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\tr.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\border.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\arrow.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_task_details.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\view_task_details.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_red_border.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\radio_red_border.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_2.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\background_2.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_border_white.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\textview_border_white.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_login.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\bg_login.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_spare_parts.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\add_spare_parts.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_machine_red.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\add_machine_red.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_radio_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_btn_radio_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator_ab_custometheme.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\tab_indicator_ab_custometheme.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_cell.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\calendar_cell.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine_manufacturer.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\machine_manufacturer.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine_model.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\machine_model.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_ratingbar_full_empty_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_ratingbar_full_empty_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_ratingbar_full_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_ratingbar_full_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_border_transparent.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\layout_border_transparent.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_border_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\bottom_border_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_border_grey_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\bottom_border_grey_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_border.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\button_border.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\work_done.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\work_done.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_head.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\start_head.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_task_details.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\view_task_details.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_arrow.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\right_arrow.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_item_background_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_item_background_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_location.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\start_location.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_switch_inner_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_switch_inner_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\water.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\water.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background_selector.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\tab_background_selector.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\shape.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\asp.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\asp.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\view.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ab_background_textured_custometheme.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\ab_background_textured_custometheme.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\delete.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\group_indicator.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\group_indicator.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textbox_date_background.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\textbox_date_background.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image_view.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\image_view.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\profile.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\profile.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lines.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\lines.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_arrow.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\right_arrow.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_border.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\layout_border.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_3.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\background_3.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_location.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\start_location.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\profile.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\profile.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selectable_background_custometheme.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\selectable_background_custometheme.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\end_location.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\end_location.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_check_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_btn_check_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_spare_parts.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\view_spare_parts.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\group_indicator.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\group_indicator.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_list_selector_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_list_selector_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_edit_text_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_edit_text_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_image.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\no_image.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selectable_background_custometheme.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\selectable_background_custometheme.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_area_border.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\text_area_border.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_border.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\radio_border.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image_view.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\image_view.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_more.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\view_more.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dockt.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\dockt.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_fastscroll_thumb_holo.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_fastscroll_thumb_holo.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_ratingbar_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_ratingbar_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_border_transparent.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\layout_border_transparent.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_4.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\background_4.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_ratingbar_full_filled_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_ratingbar_full_filled_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jobs.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\jobs.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_spare_parts.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\add_spare_parts.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_border.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\textview_border.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\down_arrow.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\down_arrow.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_spinner_background_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_spinner_background_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\shape.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\end_location.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\end_location.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play_arrow.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\play_arrow.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\docket.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\docket.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_document.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\view_document.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\delete.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_document.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\view_document.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\close.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\close.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textbox_background.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\textbox_background.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\maparrow2.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\maparrow2.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_border_white.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\textview_border_white.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_ratingbar_small_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_ratingbar_small_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_progress_indeterminate_horizontal_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_progress_indeterminate_horizontal_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\short_by_border.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\short_by_border.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_border.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\layout_border.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play_arrow.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\play_arrow.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_area_border.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\text_area_border.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\circle.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spareparts.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\spareparts.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\end_head.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\end_head.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imageedit_1_2232839833.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\imageedit_1_2232839833.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\circle.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_scrubber_progress_horizontal_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_scrubber_progress_horizontal_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\traction.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\traction.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_arrows.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\right_arrows.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_pictures.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\add_pictures.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_red_border.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\radio_red_border.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_list_selector_background_transition_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textbox_date_background.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\textbox_date_background.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lines.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\lines.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background_ab_custometheme.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\spinner_background_ab_custometheme.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spareparts.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\spareparts.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dot_red.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\dot_red.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sign.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\sign.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\work_done.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\work_done.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\maparrow1.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\maparrow1.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine_type.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\machine_type.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_button_border.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\cancel_button_border.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_button_border.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\cancel_button_border.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tr.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\tr.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\suction.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\suction.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_ratingbar_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_ratingbar_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_barcode.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\scan_barcode.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\applauncher.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\applauncher.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pin.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\pin.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play_arrow_reverse.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\play_arrow_reverse.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_2.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\arrow_2.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\machine.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\background.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\down_arrow.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\down_arrow.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\syndata.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\syndata.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine_manufacturer.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\machine_manufacturer.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dashboard.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\dashboard.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dashboard.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\dashboard.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_cel_selectl.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\calendar_cel_selectl.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_border.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\button_border.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_toggle_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_btn_toggle_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_5.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\background_5.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imageedit_1_2232839833.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\imageedit_1_2232839833.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\docket.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\docket.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_login.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\bg_login.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_scrubber_control_selector_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_scrubber_control_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_check_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_btn_check_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.gif",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\progress.gif"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\marker.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\marker.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sites.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\sites.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_ratingbar_full_filled_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_ratingbar_full_filled_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_radio_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_btn_radio_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_switch_inner_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_switch_inner_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jobs.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\jobs.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_machine.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\select_machine.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_eye.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\view_eye.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dockt.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\dockt.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_2.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\background_2.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calender2.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\calender2.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_background_selector.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\tab_background_selector.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_arrow.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\left_arrow.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_tab_indicator_holo.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_tab_indicator_holo.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ab_background_textured_custometheme.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\ab_background_textured_custometheme.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_activated_background_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_activated_background_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_border_grey_layout.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\bottom_border_grey_layout.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_head.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\start_head.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\end_head.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\end_head.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_1.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\background_1.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_star_button.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\red_star_button.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location_pin.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\location_pin.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mail.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\mail.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\work_done_button.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\work_done_button.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\complete.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\complete.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\background.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\key.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\key.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_icon.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\search_icon.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\work_done_button.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\work_done_button.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\key.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\key.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location_pin.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\location_pin.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_edittext.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\border_edittext.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clock.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\clock.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_list_selector_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_cel_selectl.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\calendar_cel_selectl.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_default_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_btn_default_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cab_done_custometheme.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\btn_cab_done_custometheme.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_tab_indicator_holo.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_tab_indicator_holo.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\marker.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\marker.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrows.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\arrows.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sign.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\sign.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_spinner_background_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_spinner_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_scrubber_progress_horizontal_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_scrubber_progress_horizontal_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.gif",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\progress.gif"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_btn_toggle_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_btn_toggle_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_switch_track_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_switch_track_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_pictures.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\add_pictures.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calender2.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\calender2.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine_tab_background_selector.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\machine_tab_background_selector.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sites.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\sites.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine_model.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\machine_model.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_indicator_ab_custometheme.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\tab_indicator_ab_custometheme.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\border.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cab_done_custometheme.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\btn_cab_done_custometheme.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_circle.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\calendar_circle.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\close.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\close.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\training.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\training.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\voltage.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\voltage.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\traction.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\traction.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_ratingbar_small_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_ratingbar_small_holo_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play_arrow_reverse.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\play_arrow_reverse.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calander.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\calander.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_cell.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\calendar_cell.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_border_grey.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\layout_border_grey.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\view_more.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\view_more.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_icon.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\search_icon.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_edit_text_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_edit_text_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\start.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\add_machine.png",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\add_machine.png"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_1.jpg",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\background_1.jpg"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_progress_indeterminate_horizontal_holo_light.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\apptheme_progress_indeterminate_horizontal_holo_light.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_border_layout.xml",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\bottom_border_layout.xml"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_circle.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\calendar_circle.png"
     },
     {
-        "merged": "C:\\Sukesh\\Samgo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\startjob.jpg",
-        "source": "C:\\Sukesh\\Samgo1\\app\\src\\main\\res\\drawable\\startjob.jpg"
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\short_by_border.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\short_by_border.xml"
     }
 ]
