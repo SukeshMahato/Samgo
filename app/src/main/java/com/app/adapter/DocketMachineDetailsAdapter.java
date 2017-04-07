@@ -109,159 +109,161 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 			viewHolder.workDone.setVisibility(View.GONE);
 
 		} else {
-			/***** Get each Model object from Arraylist ********/
-			tmpValues = null;
+            /***** Get each Model object from Arraylist ********/
+            tmpValues = null;
 
-			tmpValues = docketMachineArray.get(position);
+            tmpValues = docketMachineArray.get(position);
 
-			/************ Set Model values in Holder elements ***********/
+            /************ Set Model values in Holder elements ***********/
 
-			viewHolder.machine_name.setVisibility(View.VISIBLE);
-			viewHolder.machine_model.setVisibility(View.VISIBLE);
-			viewHolder.machine_sl_no.setVisibility(View.VISIBLE);
+            viewHolder.machine_name.setVisibility(View.VISIBLE);
+            viewHolder.machine_model.setVisibility(View.VISIBLE);
+            viewHolder.machine_sl_no.setVisibility(View.VISIBLE);
 
-			viewHolder.addSpareParts.setVisibility(View.VISIBLE);
-			viewHolder.viewDocuments.setVisibility(View.VISIBLE);
+            viewHolder.addSpareParts.setVisibility(View.VISIBLE);
+            viewHolder.viewDocuments.setVisibility(View.VISIBLE);
 
-			viewHolder.deleteMachine.setVisibility(View.VISIBLE);
-			viewHolder.pickingImage.setVisibility(View.VISIBLE);
-			viewHolder.workDone.setVisibility(View.VISIBLE);
+            viewHolder.deleteMachine.setVisibility(View.VISIBLE);
+            viewHolder.pickingImage.setVisibility(View.VISIBLE);
+            viewHolder.workDone.setVisibility(View.VISIBLE);
 
-			viewHolder.machine_type.setText(tmpValues.getMachineType());
-			viewHolder.machine_name.setText(tmpValues.getMachineName());
-			viewHolder.machine_model.setText(tmpValues.getMachineModel());
-			viewHolder.machine_sl_no.setText(tmpValues.getMachineSlNo());
+            viewHolder.machine_type.setText(tmpValues.getMachineType());
+            viewHolder.machine_name.setText(tmpValues.getMachineName());
+            viewHolder.machine_model.setText(tmpValues.getMachineModel());
+            viewHolder.machine_sl_no.setText(tmpValues.getMachineSlNo());
 
-			Log.e("TAG", "job job detail id >> " + tmpValues.getJobDetailId());
+            Log.e("TAG", "job job detail id >> " + tmpValues.getJobDetailId());
 
-			if (db.getWorkDoneForJobBoolean(tmpValues.getJobDetailId())) {
-				viewHolder.create_docket_heading.setBackgroundResource(R.color.colorNoWork);
-				Log.e("TAG", "In Red");
-			} else {
-				viewHolder.create_docket_heading.setBackgroundResource(R.color.colorWork);
-				Log.e("TAG", "In Green");
-			}
+            if (db.getWorkDoneForJobBoolean(tmpValues.getJobDetailId())) {
+                viewHolder.create_docket_heading.setBackgroundResource(R.color.colorNoWork);
+                Log.e("TAG", "In Red");
+            } else {
+                viewHolder.create_docket_heading.setBackgroundResource(R.color.colorWork);
+                Log.e("TAG", "In Green");
+            }
 
-			Log.e("TAG", "Size >> " + sparePartsArray.size());
+            Log.e("TAG", "Size >> " + sparePartsArray.size());
 
-			Log.e("TAG", "Machine Id >> " + tmpValues.getMachineId());
+            Log.e("TAG", "Machine Id >> " + tmpValues.getMachineId());
 
-			viewHolder.addSpareParts.setOnClickListener(new OnClickListener() {
+            viewHolder.addSpareParts.setOnClickListener(new OnClickListener() {
 
-				@Override
-				public void onClick(View arg0) {
-					// TODO Auto-generated method stub
-					((CreateDocketActivityPart2) activity).openPopUpForSpareParts(position);
-				}
-			});
-
-			viewHolder.viewDocuments.setOnClickListener(new OnClickListener() {
-
-				@Override
-				public void onClick(View arg0) {
-					// TODO Auto-generated method stub
-					((CreateDocketActivityPart2) activity).openMachineDetails(position);
-				}
-			});
-
-			viewHolder.deleteMachine.setOnClickListener(new OnClickListener() {
-
-				@Override
-				public void onClick(View v) {
-					// TODO Auto-generated method stub
-
-					((CreateDocketActivityPart2) activity).deleteMachineItem(position);
-				}
-			});
-
-			viewHolder.pickingImage.setOnClickListener(new OnClickListener() {
-
-				@Override
-				public void onClick(View v) {
-					// TODO Auto-generated method stub
-
-					((CreateDocketActivityPart2) activity).openGalleryForPickingImage(position);
-				}
-			});
-
-			viewHolder.workDone.setOnClickListener(new OnClickListener() {
-
-				@Override
-				public void onClick(View v) {
-					// TODO Auto-generated method stub
-					((CreateDocketActivityPart2) activity).openPopUpForWorkDone(position);
-				}
-			});
-
-
-			if (sparePartsArray.size() > 0
-					) {
-				Log.e("TAG", "values >> " + sparePartsArray.get(0).getDescription());
-				viewHolder.sparePartsLayout.setVisibility(View.VISIBLE);
-
-				for (int j = 0; j < sparePartsArray.size(); j++) {
-					/**
-					 * inflate items/ add items in linear layout instead of
-					 * listview
-					 */
-				try {
-                    //Log.e("TAG", "s >> " + sparePartsArray.get(j).getMachineId());
-					Log.e("TAG", "m >> " + sparePartsArray.get(j).getMachineId());
-
-					if (sparePartsArray.get(j).getMachineId().equals( docketMachineArray.get(position).getMachineId())) {
-
-						//Log.e("TAG", "size of i >> " + j);
-						LayoutInflater inflater1 = null;
-						inflater1 = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-						View mLinearView = inflater1.inflate(R.layout.spare_parts_details_one_row_item, null);
-
-						/**
-						 * getting id of row.xml
-						 */
-						TextView spareId = (TextView) mLinearView.findViewById(R.id.spare_parts_id);
-						TextView description = (TextView) mLinearView.findViewById(R.id.spare_description);
-						TextView quantity = (TextView) mLinearView.findViewById(R.id.spare_quantity);
-						TextView unitsales = (TextView) mLinearView.findViewById(R.id.spare_unit_sales);
-						ImageView deleteSpareParts = (ImageView) mLinearView.findViewById(R.id.delete_spare_parts);
-						/**
-						 * set item into row
-						 */
-						String spareIdText = sparePartsArray.get(position).getSparePartsId();
-						String descriptionText = sparePartsArray.get(position).getDescription();
-						String quantityText = sparePartsArray.get(position).getQuantity();
-						String unitsalesText = sparePartsArray.get(position).getUnitSales();
-
-						spareId.setText(spareIdText);
-						description.setText(descriptionText);
-						quantity.setText(quantityText);
-						unitsales.setText(unitsalesText);
-                        pos=j;
-
-						deleteSpareParts.setOnClickListener(new OnClickListener() {
-
-							@Override
-							public void onClick(View v) {
-								// TODO Auto-generated method stub
-								((CreateDocketActivityPart2) activity).deleteSpareParts(pos);
-							}
-						});
-
-						/**
-						 * add view in top linear
-						 */
-
-						viewHolder.mLinearSpareDetails.addView(mLinearView);
-					}
-				}catch(Exception e){
-                    Log.e("exceptionCase",e.toString());
+                @Override
+                public void onClick(View arg0) {
+                    // TODO Auto-generated method stub
+                    ((CreateDocketActivityPart2) activity).openPopUpForSpareParts(position);
                 }
+            });
 
-			}
+            viewHolder.viewDocuments.setOnClickListener(new OnClickListener() {
 
-			} else {
-				viewHolder.sparePartsLayout.setVisibility(View.GONE);
-				// sparePartsArray.remove((sparePartsArray.size() - 1));
-			}
+                @Override
+                public void onClick(View arg0) {
+                    // TODO Auto-generated method stub
+                    ((CreateDocketActivityPart2) activity).openMachineDetails(position);
+                }
+            });
+
+            viewHolder.deleteMachine.setOnClickListener(new OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    // TODO Auto-generated method stub
+
+                    ((CreateDocketActivityPart2) activity).deleteMachineItem(position);
+                }
+            });
+
+            viewHolder.pickingImage.setOnClickListener(new OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    // TODO Auto-generated method stub
+
+                    ((CreateDocketActivityPart2) activity).openGalleryForPickingImage(position);
+                }
+            });
+
+            viewHolder.workDone.setOnClickListener(new OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    // TODO Auto-generated method stub
+                    ((CreateDocketActivityPart2) activity).openPopUpForWorkDone(position);
+                }
+            });
+
+            if (k == position){
+                if (sparePartsArray.size() > 0
+                        ) {
+                    Log.e("TAG", "values >> " + sparePartsArray.get(0).getDescription());
+                    viewHolder.sparePartsLayout.setVisibility(View.VISIBLE);
+
+                    for (int j = 0; j < sparePartsArray.size(); j++) {
+                        /**
+                         * inflate items/ add items in linear layout instead of
+                         * listview
+                         */
+                        try {
+                            //Log.e("TAG", "s >> " + sparePartsArray.get(j).getMachineId());
+                            Log.e("TAG", "m >> " + sparePartsArray.get(j).getMachineId());
+
+                            if (sparePartsArray.get(j).getMachineId().equals(docketMachineArray.get(position).getMachineId())) {
+
+                                //Log.e("TAG", "size of i >> " + j);
+                                LayoutInflater inflater1 = null;
+                                inflater1 = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                                View mLinearView = inflater1.inflate(R.layout.spare_parts_details_one_row_item, null);
+
+                                /**
+                                 * getting id of row.xml
+                                 */
+                                TextView spareId = (TextView) mLinearView.findViewById(R.id.spare_parts_id);
+                                TextView description = (TextView) mLinearView.findViewById(R.id.spare_description);
+                                TextView quantity = (TextView) mLinearView.findViewById(R.id.spare_quantity);
+                                TextView unitsales = (TextView) mLinearView.findViewById(R.id.spare_unit_sales);
+                                ImageView deleteSpareParts = (ImageView) mLinearView.findViewById(R.id.delete_spare_parts);
+                                /**
+                                 * set item into row
+                                 */
+                                String spareIdText = sparePartsArray.get(position).getSparePartsId();
+                                String descriptionText = sparePartsArray.get(position).getDescription();
+                                String quantityText = sparePartsArray.get(position).getQuantity();
+                                String unitsalesText = sparePartsArray.get(position).getUnitSales();
+
+                                spareId.setText(spareIdText);
+                                description.setText(descriptionText);
+                                quantity.setText(quantityText);
+                                unitsales.setText(unitsalesText);
+                                pos = j;
+
+                                deleteSpareParts.setOnClickListener(new OnClickListener() {
+
+                                    @Override
+                                    public void onClick(View v) {
+                                        // TODO Auto-generated method stub
+                                        ((CreateDocketActivityPart2) activity).deleteSpareParts(pos);
+                                    }
+                                });
+
+                                /**
+                                 * add view in top linear
+                                 */
+
+                                viewHolder.mLinearSpareDetails.addView(mLinearView);
+                            }
+                        } catch (Exception e) {
+                            Log.e("exceptionCase", e.toString());
+                        }
+
+                    }
+
+                } else {
+                    viewHolder.sparePartsLayout.setVisibility(View.GONE);
+                    // sparePartsArray.remove((sparePartsArray.size() - 1));
+                }
+                k++;
+        }
 			//pos++;
 
 			if (position % 2 == 1) {

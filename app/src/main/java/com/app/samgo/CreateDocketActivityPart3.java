@@ -533,7 +533,7 @@ public class CreateDocketActivityPart3 extends Activity {
 		dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
 		dialog.setContentView(R.layout.add_spare_parts);
 
-		SparePartsModel sparePartsModel = db.getSparePartsById(spare_id,machine_id);
+		SparePartsModel sparePartsModel = db.getSparePartsById(spare_id);
 		spareParts = (AutoCompleteTextView) dialog.findViewById(R.id.spare_parts_name);
 		final EditText quantity = (EditText) dialog.findViewById(R.id.quantity);
 		final EditText description = (EditText) dialog.findViewById(R.id.description);
