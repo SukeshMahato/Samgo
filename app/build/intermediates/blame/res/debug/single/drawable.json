@@ -160,12 +160,12 @@
         "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_switch_track_holo_light.xml",
-        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_switch_track_holo_light.xml"
-    },
-    {
         "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\machine_type.jpg",
         "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\machine_type.jpg"
+    },
+    {
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_switch_track_holo_light.xml",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\apptheme_switch_track_holo_light.xml"
     },
     {
         "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
@@ -448,12 +448,12 @@
         "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\dot_red.png"
     },
     {
-        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\work_done.png",
-        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\work_done.png"
-    },
-    {
         "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "D:\\Files\\Samgo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\work_done.png",
+        "source": "D:\\Files\\Samgo\\app\\src\\main\\res\\drawable\\work_done.png"
     },
     {
         "merged": "D:\\Files\\Samgo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel_button_border.xml",

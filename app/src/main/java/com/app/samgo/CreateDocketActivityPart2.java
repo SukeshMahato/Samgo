@@ -93,7 +93,7 @@ public class CreateDocketActivityPart2 extends Activity {
 	private Button addMachine, scanBarCode, nextPage;
 	private String jobDetailId;
 
-	private LinearLayout parentLayout;
+	private RelativeLayout parentLayout;
 
 	private EditText description;
 
@@ -111,10 +111,9 @@ public class CreateDocketActivityPart2 extends Activity {
 		addMachine = (Button) findViewById(R.id.assign_machine_to_job);
 		scanBarCode = (Button) findViewById(R.id.scan_machine_to_add);
 		nextPage = (Button) findViewById(R.id.next_create_docket_page);
-		docketMachineArray.clear();
-		sparePartsArray.clear();
+  		sparePartsArray.clear();
 
-		parentLayout = (LinearLayout) findViewById(R.id.parent_layout);
+		parentLayout = (RelativeLayout) findViewById(R.id.parent_layout);
 
 		SharedPreferences settingsBack = getSharedPreferences(Config.MYFREFS, 0);
 
@@ -180,16 +179,22 @@ public class CreateDocketActivityPart2 extends Activity {
 					docketMachineDetails.setMachineId(machineId);
 					docketMachineDetails.setJobDetailId(id);
 					docketMachineArray.add(docketMachineDetails);
-                    SparePartsModel sparePartsModel = db.getSparePartsById(Config.job_id,jobDetailsArray.get(i).getMachineId());
-                    sparePartsArray.add(sparePartsModel);
+
+					Log.e("machine",machineId+"");
+					//Log.e("spare",sparePartsArray.get(i)+"");
 				}
 
                // Log.e("Length",jobDetailsArray.get(i).getJobId());
 
 			}
+            SparePartsModel sparePartsModel = db.getSparePartsById(Config.job_id);
+            sparePartsArray.add(sparePartsModel);
+            for (int i=0;i<sparePartsArray.size();i++){
+                Log.e("spare",sparePartsArray.get(i).getMachineId()+"");
+            }
 
 
-            Log.e("Length",sparePartsArray.size()+"");
+           // Log.e("Length",sparePartsArray.size()+"");
 
             //db.addSpareToMachine(sparePartsModel);
             docketMachineDetailsAdapter = new DocketMachineDetailsAdapter(this, docketMachineArray, sparePartsArray,
@@ -311,7 +316,7 @@ public class CreateDocketActivityPart2 extends Activity {
 					TextView tv1 = (TextView) rl.getChildAt(1);
 					TextView tv2 = (TextView) rl.getChildAt(2);
 					spareParts.setText(tv.getText().toString());
-					spareId = tv1.getText().toString();
+					//spareId = tv1.getText().toString();
 					spareUnitSales = tv2.getText().toString();
 					String[] spareDesc = tv.getText().toString().split(Pattern.quote("||"));
 					description.setText(spareDesc[2]);
@@ -342,6 +347,7 @@ public class CreateDocketActivityPart2 extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
+                spareId="";
 				dialog.dismiss();
 			}
 		});
@@ -438,10 +444,11 @@ public class CreateDocketActivityPart2 extends Activity {
 
 		dialog.show();
 	}
+    String machine_id="";
 
 	public void openPopUpForWorkDone(int position) {
 
-		final String machine_id = docketMachineArray.get(position).getMachineId();
+		machine_id = docketMachineArray.get(position).getMachineId();
 		final String job_id = docketMachineArray.get(position).getJobId();
 		final String jobDetail_id = docketMachineArray.get(position).getJobDetailId();
 
@@ -589,11 +596,17 @@ public class CreateDocketActivityPart2 extends Activity {
 						String jointString = myObjs[0].getDescription() + "||" + myObjs[0].getQuantity() + "||"
 								+ myObjs[0].getProduct_id();
 						Log.e("TAG", "jointString >> " + jointString);
-						spareParts.setText(jointString.toString());
-						spareId = myObjs[0].getProduct_id();
-						spareUnitSales = myObjs[0].getUnit_sales();
-						String[] spareDesc = jointString.toString().split(Pattern.quote("||"));
-						description.setText(spareDesc[2]);
+                        if (db.getSparePartsById(myObjs[0].getProduct_id(),machine_id,Config.job_id) == 0) {
+                            spareParts.setText(jointString.toString());
+                            spareId = myObjs[0].getProduct_id();
+                            spareUnitSales = myObjs[0].getUnit_sales();
+                            String[] spareDesc = jointString.toString().split(Pattern.quote("||"));
+                            description.setText(spareDesc[2]);
+                        }else{
+                            Toast toast = Toast.makeText(getApplicationContext(), "Spare parts already added", Toast.LENGTH_LONG);
+                            toast.setGravity(Gravity.CENTER, 0, 0);
+                            toast.show();
+                        }
 
 					} catch (Exception e) {
 						// TODO: handle exception

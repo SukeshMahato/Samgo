@@ -27,19 +27,20 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 	protected ArrayList<DocketMachineDetails> docketMachineArray = new ArrayList<DocketMachineDetails>();
 	protected static LayoutInflater inflater = null;
 	protected DocketMachineDetails tmpValues;
+	int pos=0;
+    static int k = 0;
 
 	protected ArrayList<SparePartsModel> sparePartsArray = new ArrayList<SparePartsModel>();
 
 	private SamgoSQLOpenHelper db;
 
-	public DocketMachineDetailsAdapter(Activity a, ArrayList<DocketMachineDetails> data,
+	public  DocketMachineDetailsAdapter(Activity a, ArrayList<DocketMachineDetails> data,
 			ArrayList<SparePartsModel> sparePartsArray, SamgoSQLOpenHelper db) {
 		// TODO Auto-generated constructor stub
+
 		this.activity = a;
 		this.docketMachineArray = data;
-
 		this.sparePartsArray = sparePartsArray;
-
 		this.db = db;
 
 		/*********** Layout inflator to call external xml layout () ***********/
@@ -90,9 +91,10 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 
 			/************ Set holder with LayoutInflater ************/
 			vi.setTag(viewHolder);
-		} else
-			viewHolder = (ViewHolder) vi.getTag();
-
+		} else {
+            viewHolder = (ViewHolder) vi.getTag();
+        }
+	Log.e("pos",pos+"");
 		if (docketMachineArray.size() <= 0) {
 			viewHolder.machine_type.setText("No Records Found");
 			viewHolder.machine_name.setVisibility(View.GONE);
@@ -203,13 +205,12 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 					 * listview
 					 */
 				try {
-                    Log.e("TAG", "s >> " + sparePartsArray.get(j).getMachineId());
-                    Log.e("TAG", "m >> " + sparePartsArray.get(position).getMachineId());
+                    //Log.e("TAG", "s >> " + sparePartsArray.get(j).getMachineId());
+					Log.e("TAG", "m >> " + sparePartsArray.get(j).getMachineId());
 
 					if (sparePartsArray.get(j).getMachineId().equals( docketMachineArray.get(position).getMachineId())) {
 
-						Log.e("TAG", "size of i >> " + j);
-
+						//Log.e("TAG", "size of i >> " + j);
 						LayoutInflater inflater1 = null;
 						inflater1 = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 						View mLinearView = inflater1.inflate(R.layout.spare_parts_details_one_row_item, null);
@@ -225,23 +226,23 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 						/**
 						 * set item into row
 						 */
-						String spareIdText = sparePartsArray.get(j).getSparePartsId();
-						String descriptionText = sparePartsArray.get(j).getDescription();
-						String quantityText = sparePartsArray.get(j).getQuantity();
-						String unitsalesText = sparePartsArray.get(j).getUnitSales();
+						String spareIdText = sparePartsArray.get(position).getSparePartsId();
+						String descriptionText = sparePartsArray.get(position).getDescription();
+						String quantityText = sparePartsArray.get(position).getQuantity();
+						String unitsalesText = sparePartsArray.get(position).getUnitSales();
 
 						spareId.setText(spareIdText);
 						description.setText(descriptionText);
 						quantity.setText(quantityText);
 						unitsales.setText(unitsalesText);
+                        pos=j;
 
 						deleteSpareParts.setOnClickListener(new OnClickListener() {
 
 							@Override
 							public void onClick(View v) {
 								// TODO Auto-generated method stub
-
-								((CreateDocketActivityPart2) activity).deleteSpareParts(position);
+								((CreateDocketActivityPart2) activity).deleteSpareParts(pos);
 							}
 						});
 
@@ -261,17 +262,15 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 				viewHolder.sparePartsLayout.setVisibility(View.GONE);
 				// sparePartsArray.remove((sparePartsArray.size() - 1));
 			}
+			//pos++;
 
 			if (position % 2 == 1) {
 				vi.setBackgroundColor(Color.parseColor("#f6f6f6"));
 			} else {
 				vi.setBackgroundColor(Color.parseColor("#ffffff"));
 			}
-
 		}
-
 		return vi;
-
 	}
 
 	@Override
@@ -293,5 +292,15 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 		// TODO Auto-generated method stub
 		return position;
 	}
+
+//    @Override
+//    public int getItemViewType(int position) {
+//        return (sparePartsArray.get(position).getMachineId().equals( docketMachineArray.get(position).getMachineId())) ? 0 : 1;
+//    }
+//
+//    @Override
+//    public int getViewTypeCount() {
+//        return 2;
+//    }
 
 }

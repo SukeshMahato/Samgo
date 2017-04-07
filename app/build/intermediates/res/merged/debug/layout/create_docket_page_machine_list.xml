@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--<ScrollView android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/parent_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/white"
     android:orientation="vertical" >
 
     <RelativeLayout
         android:id="@+id/create_docket_header"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:background="@color/red_dark"
-        android:padding="5dp" >
+        android:padding="4dp" >
 
         <ImageView
             android:id="@+id/back_button"
@@ -54,11 +55,12 @@
     <LinearLayout
         android:id="@+id/create_docket_heading"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/create_docket_header"
         android:background="@color/drawer_blue"
         android:orientation="horizontal"
-        android:padding="5dp" >
+        android:padding="4dp" >
 
         <TextView
             android:layout_width="0dp"
@@ -118,21 +120,25 @@
 
     <ListView
         android:id="@+id/docket_machine_list"
+        android:layout_below="@+id/create_docket_heading"
         android:layout_width="match_parent"
-        android:layout_height="320dp"
-        android:layout_margin="10dp" >
+        android:layout_height="150dp"
+        android:layout_margin="5dp" >
+
     </ListView>
+
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="right"
+        android:layout_below="@+id/docket_machine_list"
         android:orientation="horizontal" >
 
         <Button
             android:id="@+id/scan_machine_to_add"
             android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:background="@color/drawer_blue"
@@ -145,7 +151,7 @@
         <Button
             android:id="@+id/assign_machine_to_job"
             android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:background="@color/drawer_blue"
@@ -158,7 +164,7 @@
         <Button
             android:id="@+id/next_create_docket_page"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:background="@color/drawer_blue"
@@ -169,5 +175,5 @@
             android:textSize="18sp" />
     </LinearLayout>
 
-</LinearLayout>
-</ScrollView>
+</RelativeLayout>
+<!--</ScrollView>-->

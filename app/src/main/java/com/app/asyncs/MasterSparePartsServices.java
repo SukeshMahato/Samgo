@@ -74,9 +74,7 @@ public class MasterSparePartsServices extends AsyncTask<Void, Void, String> {
 			writer.flush();
 			writer.close();
 			os.close();
-
 			conection.connect();
-
 			int responseCode = conection.getResponseCode();
 
 			if (responseCode == HttpURLConnection.HTTP_OK) {

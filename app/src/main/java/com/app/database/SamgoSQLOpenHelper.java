@@ -3284,13 +3284,13 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 		db.close();
 	}
 
-	public SparePartsModel getSparePartsById(String spare_id,String machine_id) {
+	public SparePartsModel getSparePartsById(String jobid) {
 		SparePartsModel sparePartsModel = new SparePartsModel();
 
 		SQLiteDatabase db = this.getReadableDatabase();
 
 		String rawQuery = "SELECT id, spare_id, product_id, description, quantity, sales_price,machine_id,spare_job_id FROM "
-				+ TABLE_SPARE_ADDED_MACHINE + " where "+SPARE_ADDED_JOB_ID+"= " + spare_id + " and " + SPARE_ADDED_MACHINE_ID + "="+machine_id;
+				+ TABLE_SPARE_ADDED_MACHINE + " where "+SPARE_ADDED_JOB_ID+"= " + jobid ;
 
 		Cursor cursor = db.rawQuery(rawQuery, null);
 
@@ -3321,6 +3321,28 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 		return sparePartsModel;
 	}
 
+	public int getSparePartsById(String spare_id,String machine_id,String jobid) {
+		SparePartsModel sparePartsModel = new SparePartsModel();
+
+		SQLiteDatabase db = this.getReadableDatabase();
+
+		String rawQuery = "SELECT id, spare_id, product_id, description, quantity, sales_price,machine_id,spare_job_id FROM "
+				+ TABLE_SPARE_ADDED_MACHINE + " where "+SPARE_ADDED_JOB_ID+"= " + jobid + " and " + SPARE_ADDED_MACHINE_ID + "="+machine_id
+				+ " and " + SPARE_ADDED_ID + "="+spare_id;
+
+		Cursor cursor = db.rawQuery(rawQuery, null);
+		int o=0;
+
+		while (cursor.moveToNext()) {
+
+			o++;
+		}
+
+		db.close();
+		cursor.close();
+
+		return o;
+	}
 	public ArrayList<SparePartsModel> getSparePartsByJob(String job_id) {
 		SQLiteDatabase db = this.getReadableDatabase();
 
