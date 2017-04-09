@@ -3320,6 +3320,38 @@ public class  SamgoSQLOpenHelper extends SQLiteOpenHelper {
 
 		return sparePartsModel;
 	}
+	public ArrayList<SparePartsModel> getSparePartsByIdCount(String jobid) {
+        ArrayList<SparePartsModel>  sparePartsArray = new ArrayList<SparePartsModel>();
+
+
+		SQLiteDatabase db = this.getReadableDatabase();
+
+		String rawQuery = "SELECT id, spare_id, product_id, description, quantity, sales_price,machine_id,spare_job_id FROM "
+				+ TABLE_SPARE_ADDED_MACHINE + " where "+SPARE_ADDED_JOB_ID+"= " + jobid ;
+
+		Cursor cursor = db.rawQuery(rawQuery, null);
+        int c=0;
+
+		while (cursor.moveToNext()) {
+            SparePartsModel sparePartsModel = new SparePartsModel();
+            sparePartsModel.setId(cursor.getString(0));
+            sparePartsModel.setSpareId(cursor.getString(1));
+            sparePartsModel.setSparePartsId(cursor.getString(2));
+            sparePartsModel.setDescription(cursor.getString(3));
+            sparePartsModel.setQuantity(cursor.getString(4));
+            sparePartsModel.setUnitSales(cursor.getString(5));
+            sparePartsModel.setMachineId(cursor.getString(6));
+            sparePartsModel.setJobId(cursor.getString(7));
+            sparePartsArray.add(sparePartsModel);
+
+			c++;
+		}
+
+		db.close();
+		cursor.close();
+
+		return sparePartsArray;
+	}
 
 	public int getSparePartsById(String spare_id,String machine_id,String jobid) {
 		SparePartsModel sparePartsModel = new SparePartsModel();

@@ -28,7 +28,7 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 	protected static LayoutInflater inflater = null;
 	protected DocketMachineDetails tmpValues;
 	int pos=0;
-    static int k = 0;
+    //static int k = 0;
 
 	protected ArrayList<SparePartsModel> sparePartsArray = new ArrayList<SparePartsModel>();
 
@@ -66,35 +66,106 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
 		ViewHolder viewHolder;
 
 		if (convertView == null) {
-			/******
-			 * Inflate tabitem.xml file for each row ( Defined below )
-			 *******/
-			vi = inflater.inflate(R.layout.create_docket_page_machine_one_row_item, parent, false);
+            /******
+             * Inflate tabitem.xml file for each row ( Defined below )
+             *******/
+            vi = inflater.inflate(R.layout.create_docket_page_machine_one_row_item, parent, false);
 
-			/******
-			 * View Holder Object to contain tabitem.xml file elements
-			 ******/
-			viewHolder = new ViewHolder();
-			viewHolder.machine_type = (TextView) vi.findViewById(R.id.machine_type);
-			viewHolder.machine_name = (TextView) vi.findViewById(R.id.machine_name);
-			viewHolder.machine_model = (TextView) vi.findViewById(R.id.machine_model);
-			viewHolder.machine_sl_no = (TextView) vi.findViewById(R.id.machine_sl_no);
-			viewHolder.sparePartsLayout = (LinearLayout) vi.findViewById(R.id.spare_parts_wrapper);
-			viewHolder.mLinearSpareDetails = (LinearLayout) vi.findViewById(R.id.spare_parts_detail);
-			viewHolder.addSpareParts = (ImageView) vi.findViewById(R.id.add_spare_parts);
-			viewHolder.viewDocuments = (ImageView) vi.findViewById(R.id.view_documents);
+            /******
+             * View Holder Object to contain tabitem.xml file elements
+             ******/
+            viewHolder = new ViewHolder();
+            viewHolder.machine_type = (TextView) vi.findViewById(R.id.machine_type);
+            viewHolder.machine_name = (TextView) vi.findViewById(R.id.machine_name);
+            viewHolder.machine_model = (TextView) vi.findViewById(R.id.machine_model);
+            viewHolder.machine_sl_no = (TextView) vi.findViewById(R.id.machine_sl_no);
+            viewHolder.sparePartsLayout = (LinearLayout) vi.findViewById(R.id.spare_parts_wrapper);
+            viewHolder.mLinearSpareDetails = (LinearLayout) vi.findViewById(R.id.spare_parts_detail);
+            viewHolder.addSpareParts = (ImageView) vi.findViewById(R.id.add_spare_parts);
+            viewHolder.viewDocuments = (ImageView) vi.findViewById(R.id.view_documents);
 
-			viewHolder.deleteMachine = (ImageView) vi.findViewById(R.id.delete_machine);
-			viewHolder.pickingImage = (ImageView) vi.findViewById(R.id.add_pictures);
-			viewHolder.workDone = (ImageView) vi.findViewById(R.id.work_done);
-			viewHolder.create_docket_heading = (LinearLayout) vi.findViewById(R.id.create_docket_heading);
+            viewHolder.deleteMachine = (ImageView) vi.findViewById(R.id.delete_machine);
+            viewHolder.pickingImage = (ImageView) vi.findViewById(R.id.add_pictures);
+            viewHolder.workDone = (ImageView) vi.findViewById(R.id.work_done);
+            viewHolder.create_docket_heading = (LinearLayout) vi.findViewById(R.id.create_docket_heading);
+            if (docketMachineArray.size() > 0) {
+            if (sparePartsArray.size() > 0
+                    ) {
+                Log.e("TAG", "values >> " + sparePartsArray.size());
+                viewHolder.sparePartsLayout.setVisibility(View.VISIBLE);
+
+                for (int j = 0; j < sparePartsArray.size(); j++) {
+                    /**
+                     * inflate items/ add items in linear layout instead of
+                     * listview
+                     */
+                    try {
+                        //Log.e("TAG", "s >> " + sparePartsArray.get(j).getMachineId());
+                        Log.e("TAG", "sm >> " + sparePartsArray.get(j).getMachineId());
+                        Log.e("TAG", "dm >> " + docketMachineArray.get(position).getMachineId());
+
+                        if (sparePartsArray.get(j).getMachineId().equals(docketMachineArray.get(position).getMachineId())) {
+
+                            Log.e("TAG", "size of i >> " + j);
+                            LayoutInflater inflater1 = null;
+                            inflater1 = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                            View mLinearView = inflater1.inflate(R.layout.spare_parts_details_one_row_item, null);
+
+                            /**
+                             * getting id of row.xml
+                             */
+                            TextView spareId = (TextView) mLinearView.findViewById(R.id.spare_parts_id);
+                            TextView description = (TextView) mLinearView.findViewById(R.id.spare_description);
+                            TextView quantity = (TextView) mLinearView.findViewById(R.id.spare_quantity);
+                            TextView unitsales = (TextView) mLinearView.findViewById(R.id.spare_unit_sales);
+                            ImageView deleteSpareParts = (ImageView) mLinearView.findViewById(R.id.delete_spare_parts);
+                            /**
+                             * set item into row
+                             */
+                            String spareIdText = sparePartsArray.get(j).getSparePartsId();
+                            String descriptionText = sparePartsArray.get(j).getDescription();
+                            String quantityText = sparePartsArray.get(j).getQuantity();
+                            String unitsalesText = sparePartsArray.get(j).getUnitSales();
+
+                            spareId.setText(spareIdText);
+                            description.setText(descriptionText);
+                            quantity.setText(quantityText);
+                            unitsales.setText(unitsalesText);
+                            pos = j;
+
+                            deleteSpareParts.setOnClickListener(new OnClickListener() {
+
+                                @Override
+                                public void onClick(View v) {
+                                    // TODO Auto-generated method stub
+                                    ((CreateDocketActivityPart2) activity).deleteSpareParts(pos);
+                                }
+                            });
+
+                            /**
+                             * add view in top linear
+                             */
+
+                            viewHolder.mLinearSpareDetails.addView(mLinearView);
+                        }
+                    } catch (Exception e) {
+                        Log.e("exceptionCase", e.toString());
+                    }
+
+                }
+
+            } else {
+                viewHolder.sparePartsLayout.setVisibility(View.GONE);
+                // sparePartsArray.remove((sparePartsArray.size() - 1));
+            }
+        }
 
 			/************ Set holder with LayoutInflater ************/
 			vi.setTag(viewHolder);
 		} else {
             viewHolder = (ViewHolder) vi.getTag();
         }
-	Log.e("pos",pos+"");
+	//Log.e("pos",pos+"");
 		if (docketMachineArray.size() <= 0) {
 			viewHolder.machine_type.setText("No Records Found");
 			viewHolder.machine_name.setVisibility(View.GONE);
@@ -192,78 +263,81 @@ public class DocketMachineDetailsAdapter extends BaseAdapter {
                     ((CreateDocketActivityPart2) activity).openPopUpForWorkDone(position);
                 }
             });
+            pos++;
+            Log.e("item",pos+"");
 
-            if (k == position){
-                if (sparePartsArray.size() > 0
-                        ) {
-                    Log.e("TAG", "values >> " + sparePartsArray.get(0).getDescription());
-                    viewHolder.sparePartsLayout.setVisibility(View.VISIBLE);
-
-                    for (int j = 0; j < sparePartsArray.size(); j++) {
-                        /**
-                         * inflate items/ add items in linear layout instead of
-                         * listview
-                         */
-                        try {
-                            //Log.e("TAG", "s >> " + sparePartsArray.get(j).getMachineId());
-                            Log.e("TAG", "m >> " + sparePartsArray.get(j).getMachineId());
-
-                            if (sparePartsArray.get(j).getMachineId().equals(docketMachineArray.get(position).getMachineId())) {
-
-                                //Log.e("TAG", "size of i >> " + j);
-                                LayoutInflater inflater1 = null;
-                                inflater1 = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                                View mLinearView = inflater1.inflate(R.layout.spare_parts_details_one_row_item, null);
-
-                                /**
-                                 * getting id of row.xml
-                                 */
-                                TextView spareId = (TextView) mLinearView.findViewById(R.id.spare_parts_id);
-                                TextView description = (TextView) mLinearView.findViewById(R.id.spare_description);
-                                TextView quantity = (TextView) mLinearView.findViewById(R.id.spare_quantity);
-                                TextView unitsales = (TextView) mLinearView.findViewById(R.id.spare_unit_sales);
-                                ImageView deleteSpareParts = (ImageView) mLinearView.findViewById(R.id.delete_spare_parts);
-                                /**
-                                 * set item into row
-                                 */
-                                String spareIdText = sparePartsArray.get(position).getSparePartsId();
-                                String descriptionText = sparePartsArray.get(position).getDescription();
-                                String quantityText = sparePartsArray.get(position).getQuantity();
-                                String unitsalesText = sparePartsArray.get(position).getUnitSales();
-
-                                spareId.setText(spareIdText);
-                                description.setText(descriptionText);
-                                quantity.setText(quantityText);
-                                unitsales.setText(unitsalesText);
-                                pos = j;
-
-                                deleteSpareParts.setOnClickListener(new OnClickListener() {
-
-                                    @Override
-                                    public void onClick(View v) {
-                                        // TODO Auto-generated method stub
-                                        ((CreateDocketActivityPart2) activity).deleteSpareParts(pos);
-                                    }
-                                });
-
-                                /**
-                                 * add view in top linear
-                                 */
-
-                                viewHolder.mLinearSpareDetails.addView(mLinearView);
-                            }
-                        } catch (Exception e) {
-                            Log.e("exceptionCase", e.toString());
-                        }
-
-                    }
-
-                } else {
-                    viewHolder.sparePartsLayout.setVisibility(View.GONE);
-                    // sparePartsArray.remove((sparePartsArray.size() - 1));
-                }
-                k++;
-        }
+            //if (k == position){
+//                if (sparePartsArray.size() > 0
+//                        ) {
+//                    Log.e("TAG", "values >> " + sparePartsArray.get(0).getDescription());
+//                    viewHolder.sparePartsLayout.setVisibility(View.VISIBLE);
+//
+//                    for (int j = 0; j < sparePartsArray.size(); j++) {
+//                        /**
+//                         * inflate items/ add items in linear layout instead of
+//                         * listview
+//                         */
+//                        try {
+//                            //Log.e("TAG", "s >> " + sparePartsArray.get(j).getMachineId());
+//                            Log.e("TAG", "sm >> " + sparePartsArray.get(j).getMachineId());
+//                            Log.e("TAG", "dm >> " + docketMachineArray.get(position).getMachineId());
+//
+//                            if (sparePartsArray.get(j).getMachineId().equals(docketMachineArray.get(position).getMachineId())) {
+//
+//                                Log.e("TAG", "size of i >> " + j);
+//                                LayoutInflater inflater1 = null;
+//                                inflater1 = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+//                                View mLinearView = inflater1.inflate(R.layout.spare_parts_details_one_row_item, null);
+//
+//                                /**
+//                                 * getting id of row.xml
+//                                 */
+//                                TextView spareId = (TextView) mLinearView.findViewById(R.id.spare_parts_id);
+//                                TextView description = (TextView) mLinearView.findViewById(R.id.spare_description);
+//                                TextView quantity = (TextView) mLinearView.findViewById(R.id.spare_quantity);
+//                                TextView unitsales = (TextView) mLinearView.findViewById(R.id.spare_unit_sales);
+//                                ImageView deleteSpareParts = (ImageView) mLinearView.findViewById(R.id.delete_spare_parts);
+//                                /**
+//                                 * set item into row
+//                                 */
+//                                String spareIdText = sparePartsArray.get(j).getSparePartsId();
+//                                String descriptionText = sparePartsArray.get(j).getDescription();
+//                                String quantityText = sparePartsArray.get(j).getQuantity();
+//                                String unitsalesText = sparePartsArray.get(j).getUnitSales();
+//
+//                                spareId.setText(spareIdText);
+//                                description.setText(descriptionText);
+//                                quantity.setText(quantityText);
+//                                unitsales.setText(unitsalesText);
+//                                pos = j;
+//
+//                                deleteSpareParts.setOnClickListener(new OnClickListener() {
+//
+//                                    @Override
+//                                    public void onClick(View v) {
+//                                        // TODO Auto-generated method stub
+//                                        ((CreateDocketActivityPart2) activity).deleteSpareParts(pos);
+//                                    }
+//                                });
+//
+//                                /**
+//                                 * add view in top linear
+//                                 */
+//
+//                                viewHolder.mLinearSpareDetails.addView(mLinearView);
+//                            }
+//                        } catch (Exception e) {
+//                            Log.e("exceptionCase", e.toString());
+//                        }
+//
+//                    }
+//
+//                } else {
+//                    viewHolder.sparePartsLayout.setVisibility(View.GONE);
+//                    // sparePartsArray.remove((sparePartsArray.size() - 1));
+//                }
+               // k++;
+       // }
 			//pos++;
 
 			if (position % 2 == 1) {

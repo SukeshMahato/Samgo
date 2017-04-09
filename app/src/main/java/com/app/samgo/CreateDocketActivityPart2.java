@@ -160,7 +160,8 @@ public class CreateDocketActivityPart2 extends Activity {
 			jobDetailsArray.clear();
             sparePartsArray.clear();
 			jobDetailsArray = db.getAllJobDetails(jobId);
-			for (int i = 0; i < jobDetailsArray.size(); i++) {
+            Log.e("l",jobDetailsArray.size()+"");
+            for (int i = 0; i < jobDetailsArray.size(); i++) {
 
 				String machineId = jobDetailsArray.get(i).getMachineId();
 				String job_id = jobDetailsArray.get(i).getJobId();
@@ -187,11 +188,13 @@ public class CreateDocketActivityPart2 extends Activity {
                // Log.e("Length",jobDetailsArray.get(i).getJobId());
 
 			}
-            SparePartsModel sparePartsModel = db.getSparePartsById(Config.job_id);
-            sparePartsArray.add(sparePartsModel);
+//            SparePartsModel sparePartsModel = db.getSparePartsById(Config.job_id);
+//            sparePartsArray.add(sparePartsModel);
+            sparePartsArray = db.getSparePartsByIdCount(jobId);
             for (int i=0;i<sparePartsArray.size();i++){
                 Log.e("spare",sparePartsArray.get(i).getMachineId()+"");
             }
+            Log.e("spare",sparePartsArray.size()+"");
 
 
            // Log.e("Length",sparePartsArray.size()+"");
@@ -287,9 +290,11 @@ public class CreateDocketActivityPart2 extends Activity {
 		builder.show();
 	}
 
+    String machine_id="";
+
 	public void openPopUpForSpareParts(int position) {
 
-		final String machine_id = docketMachineArray.get(position).getMachineId();
+		machine_id = docketMachineArray.get(position).getMachineId();
 		final String job_id = docketMachineArray.get(position).getJobId();
 
 		final Dialog dialog = new Dialog(CreateDocketActivityPart2.this, R.style.PauseDialog);
@@ -444,7 +449,6 @@ public class CreateDocketActivityPart2 extends Activity {
 
 		dialog.show();
 	}
-    String machine_id="";
 
 	public void openPopUpForWorkDone(int position) {
 
@@ -596,9 +600,9 @@ public class CreateDocketActivityPart2 extends Activity {
 						String jointString = myObjs[0].getDescription() + "||" + myObjs[0].getQuantity() + "||"
 								+ myObjs[0].getProduct_id();
 						Log.e("TAG", "jointString >> " + jointString);
-                        if (db.getSparePartsById(myObjs[0].getProduct_id(),machine_id,Config.job_id) == 0) {
+                        if (db.getSparePartsById(myObjs[0].getId(),machine_id,Config.job_id) == 0) {
                             spareParts.setText(jointString.toString());
-                            spareId = myObjs[0].getProduct_id();
+                            spareId = myObjs[0].getId();
                             spareUnitSales = myObjs[0].getUnit_sales();
                             String[] spareDesc = jointString.toString().split(Pattern.quote("||"));
                             description.setText(spareDesc[2]);
@@ -613,6 +617,7 @@ public class CreateDocketActivityPart2 extends Activity {
 						Toast toast = Toast.makeText(getApplicationContext(), "Machine not present in database", Toast.LENGTH_LONG);
 						toast.setGravity(Gravity.CENTER, 0, 0);
 						toast.show();
+						Log.e("exc",e.toString());
 					}
 				}
 

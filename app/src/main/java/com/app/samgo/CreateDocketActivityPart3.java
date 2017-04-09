@@ -99,15 +99,10 @@ public class CreateDocketActivityPart3 extends Activity {
 		qrScan = new IntentIntegrator(this);
 
 		db = new SamgoSQLOpenHelper(getApplicationContext());
-
 		preferences = getSharedPreferences(Config.MYFREFS, MODE_PRIVATE);
-
 		parentLayout = (RelativeLayout) findViewById(R.id.parent_layout);
-
 		SharedPreferences settingsBack = getSharedPreferences(Config.MYFREFS, 0);
-
 		String background_image = settingsBack.getString("background_image", "test");
-
 		Log.e("TAG", "background_image >> " + background_image);
 
 		if (background_image != null) {
@@ -163,19 +158,9 @@ public class CreateDocketActivityPart3 extends Activity {
 		if (imgFile.exists()) {
 
 			Bitmap myBitmap = BitmapFactory.decodeFile(imgFile.getAbsolutePath());
-
-			// ImageView myImage = (ImageView) findViewById(R.id.imageviewTest);
-
 			sign.setImageBitmap(myBitmap);
 
 		}
-
-		/*
-		 * Bitmap bMap = BitmapFactory
-		 * .decodeFile(Environment.getExternalStorageDirectory() +
-		 * "/GetSignature/" + job_id + "_signature.png"); if (bMap != null)
-		 * sign.setImageBitmap(bMap);
-		 */
 
 	}
 
@@ -258,7 +243,6 @@ public class CreateDocketActivityPart3 extends Activity {
 							docketList.setDocket_complete("0");
 							docketList.setSignName(signName);
 							docketList.setSignDecode(signDecode);
-
 							db.updateDocket(docketList);
 							Log.e("TAG", "Saved Sucessfully::" + Config.job_id);
 							db.updateJobTable(Config.docket_id);

@@ -214,6 +214,7 @@ public class AssignMachineToJob extends Activity {
 					Intent assignMachine = new Intent(AssignMachineToJob.this, CreateDocketActivityPart2.class);
 					assignMachine.putExtra("JOBID", jobId);
 					startActivity(assignMachine);
+					finish();
 					overridePendingTransition(R.anim.pull_in_right, R.anim.push_out_left);
 
 				} else {
